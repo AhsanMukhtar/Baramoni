@@ -1,49 +1,129 @@
-<header id="header">
-  <!-- Nav Top section   -->
-<section class="top">
+<!-- Header Start Here -->
+<header id="header-top">
+    <div class="header-green">
         <div class="container">
             <div class="row">
-                <div class="col-md-6"> </div>
-                <div class="col-md-6"></div>
+                <div class="col-lg-6 align-items-center">
+                    <p class="para1">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-4">
+                    <div>
+                        <div class="heading_top">
+                            <i class="fa fa-commenting" aria-hidden="true"></i>
+                            <span>message</span>
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-flag" aria-hidden="true"></i>
+                            <div class="input-group">
+                                <select class="custom-select" id="inputGroupSelect01">
+                                    <option value="L_UK">London-UK</option>
+                                    <option value="Pak">Pakistan</option>
+                                    <option value="US">United State</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
-<!-- Nav Top Section  -->
-
-<!-- Nav section  -->
-<section class="nav">
+    </div>
     <div class="container">
-        <div class="row">
-            <div class="col-md-6"></div>
-            <div class="col-md-6"></div>
+        <div class="row align-items-center">
+            <div class="col-lg-2 col-4">
+                <div class="logoDv">
+                    <a href="index.php">
+                        <figure><img src="img/logo.png" class="img-fluid"></figure>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-7 col-1">
+
+            </div>
+            <div class="col-lg-3 col-7">
+                <div class="right_menus">
+                    <div class="b_user_p">
+                        <div class="b_user_p2">
+                            <img class="img-fluid" src="img/user_icon.png" alt="">
+                            <div>
+                                <span class="c_name">My Account</span>
+                                <p class="">John Doe</p>
+                            </div>
+                        </div>
+                        <hr class="line">
+                        <div class="b_user_p2">
+                            <img class="img-fluid" src="img/icon_cart.png" alt="">
+                            <div>
+                                <span class="c_name">Your Cart</span>
+                                <p class="">$ 49.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <div class="orange-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="navbar_menus">
+                        <ul class="menus">
+                            <li class="menu-items"><a href="index.php">HOME</a></li>
+                            <li class="menu-items"><a href="shop.php">Shops</a></li>
+                            <li class="menu-items"><a href="restaurent.php">Restaurants </a></li>
+                            <li class="menu-items"><a href="travel.php">Travels</a></li>
+                            <li class="menu-items"><a href="job.php">Jobs</a></li>
+                            <li class="menu-items"><a href="event.php">Events</a></li>
+                            <li class="menu-items"><a href="sell.php"> Sell</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
 
-</section>
-
-<div class="canvas-icon text-right">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-<!-- Nav section  -->
-
-<div class="mobile-header navbar-dark">
-        <div class="cancel">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x"
-                viewBox="0 0 16 16">
-                <path
-                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
-            </svg>
+                </div>
+                <div class="col-lg-3">
+                    <div class="input-group align-items-center">
+                        <input type="text" class="form-control" placeholder="Search here" aria-label="search-here"
+                            aria-describedby="basic-addon1">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">
+                                <i class="fa fa-search"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <ul class="mobile-nav navbar-nav">
-            <li class="nav-link"><a class="text-black" href="index.php">Home</a></li>
-            <li class="nav-link"><a class="text-black" href="souvenir.php">Wigs</a></li>
-            <li class="nav-link"><a class="text-black" href="gifts.php">Hair Extensions</a></li>
-            <li class="nav-link"><a class="text-black" href="candels.php">Hair Care</a></li>
-            <li class="nav-link"><a class="text-black" href="#">Skin Care</a></li>
-            <li class="nav-link"><a class="text-black" href="#">Makeup</a></li>
-            <li class="nav-link"><a class="text-black" href="accessories.php">Health & Wellness</a></li>
-            <li class="nav-link"><a class="text-black" href="accessories.php">Perfumes</a></li>
-            <li class="nav-link"><a class="text-black" href="accessories.php">Men</a></li>
-        </ul>
     </div>
 </header>
+<!-- Header End Here -->
+
+<!-- Go To Top Button -->
+<!-- <div class="go_to_top">
+    <a href="#header-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+</div> -->
+<!-- Go To Top Button -->
+
+<!-- Mobile Header Start Here -->
+<div class="mobile_header">
+    <div class="cancel">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#000" class="bi bi-x" viewBox="0 0 16 16">
+            <path
+                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+        </svg>
+    </div>
+    <ul class="mobile_menus">
+        <li class="menu_items"><a class="menu_links active_menu" href="index.php">Home</a></li>
+        <li class="menu_items"><a class="menu_links" href="about.php">About</a></li>
+        <li class="menu_items"><a class="menu_links" href="products.php">Shop</a></li>
+        <li class="menu_items"><a class="menu_links" href="products.php">Products</a></li>
+        <li class="menu_items"><a class="menu_links" href="contact.php">Contact</a></li>
+        <li class="menu_items"><a class="menu_links" href="product-cart.php">Cart</a></li>
+        <li class="menu_items"><a class="menu_links" href="signin.php">Login</a></li>
+        <li class="menu_items"><a class="menu_links" href="signup.php">Signup</a></li>
+    </ul>
+</div>
+<!-- Mobile Header End Here -->
