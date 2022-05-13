@@ -13,6 +13,10 @@
   font-family: 'gtwb';
   src: url(../fonts/GTWalsheimPro-Bold.ttf);
 }
+@font-face {
+  font-family: 'gm';
+  src: url(../fonts/GothamMedium.ttf);
+}
 /* Universal Css Start Here */
 :root {
   --first-color: #81be41;
@@ -193,6 +197,7 @@ hr.line {
 }
 .b_user_p p {
   margin: 0;
+  color: #000;
 }
 .b_user_p2 {
   display: flex;
@@ -452,6 +457,7 @@ p.green_para2 {
   color: #fff;
   border-radius: 4px;
 }
+
 .week_slider img {
   width: 180px;
   height: 180px;
@@ -488,6 +494,26 @@ div#twdeal {
 div#twdeal .twdcol {
   width: 521px !important;
 }
+/* advertisement page css start  */
+.products-par.add_prod_para {
+  margin-top: 1rem;
+}
+.advertisement_week.week_slider img {
+  width: 380px;
+  height: 330px;
+}
+.btn.custom_wish {
+  border-radius: 2px;
+  background: #FFA33F;
+  padding: 1rem;
+}
+.add_green {
+  color: #111111;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+/* advertisement page css end  */
+
 /* section express deal end here */
 /* organic food section start here */
 .green_bpara {

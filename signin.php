@@ -63,7 +63,7 @@
                                         <div class="form-group">
                                             <div class="row">
                                                 <div class="col-md-12 col-xs-12 btn-right ">
-                                                    <button type="submit" class="btn w-100">Sign In</button>
+                                                    <a href="profile.php" type="submit" class="btn w-100">Sign In</a>
                                                 </div>
                                             </div>
                                         </div>

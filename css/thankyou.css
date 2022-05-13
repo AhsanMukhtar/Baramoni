@@ -1,0 +1,31 @@
+body {
+    background-color: #f9f9f9;
+}
+.img-tls {
+    display: none;
+}
+.thankyou .happyShopping {
+    background: #fff;
+    padding: 60px 30px;
+    width: 40%;
+    margin: 0px auto;
+    text-align: center;
+}
+.thankyou .happyShopping .button-group a.btn {
+    background: #8DC63F;
+    font-size: 14px;
+    padding: 8px 30px;
+    color: #fff;
+    /* font-weight: 600; */
+    box-shadow: none;
+}
+.thankyou {
+    padding: 2rem 0;
+    
+}
+.happyShopping{
+    box-shadow: -1px 0px 6px 0px rgba(0,0,0,0.21);
+-webkit-box-shadow: -1px 0px 6px 0px rgba(0,0,0,0.21);
+-moz-box-shadow: -1px 0px 6px 0px rgba(0,0,0,0.21);
+border-radius: 20px;
+}

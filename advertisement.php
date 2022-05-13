@@ -150,8 +150,130 @@
                     </div>
                 </div>
                 <div class="col-lg-9">
-                    
-
+                    <div class="week_slider advertisement_week week_slider_img">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div>
+                                    <a href="advertisement-detail.php">
+                                        <img class="img-fluid" src="img/product5.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 week_img_content">
+                                <div class="">
+                                    <div>
+                                        <small>
+                                            <p class="add_green">Electronic</p>
+                                        </small>
+                                        <a href="advertisement-detail.php">
+                                            <p class="product_name">Lorem Ipsum is simply dummy
+                                                text</p>
+                                        </a>
+                                    </div>
+                                    <div class="product_stars_icon">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="reviews">( 119 reviews )</span>
+                                    </div>
+                                    <div class="products-par add_prod_para">
+                                        <p class="green_para2">
+                                            $44.00
+                                        </p>
+                                        <del>
+                                            $55.00
+                                        </del>
+                                    </div>
+                                    <div class="addtocartbtn ">
+                                        <a class="btn custom_wish" tabindex="0"><i class="fa fa-heart mr-3"
+                                                aria-hidden="true"></i>Add To Wishlist</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="week_slider advertisement_week week_slider_img2 mt-5">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div>
+                                    <img class="img-fluid" src="img/product6.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6 week_img_content">
+                                <div class="">
+                                    <div>
+                                        <small>
+                                            <p class="add_green">Clothes</p>
+                                        </small>
+                                        <p class="product_name">Lorem Ipsum is simply dummy
+                                            text</p>
+                                    </div>
+                                    <div class="product_stars_icon">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="reviews">( 119 reviews )</span>
+                                    </div>
+                                    <div class="products-par add_prod_para">
+                                        <p class="green_para2">
+                                            $44.00
+                                        </p>
+                                        <del>
+                                            $55.00
+                                        </del>
+                                    </div>
+                                    <div class="addtocartbtn ">
+                                        <a class="btn custom_wish" tabindex="0"><i class="fa fa-heart mr-3"
+                                                aria-hidden="true"></i>Add To Wishlist</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="week_slider advertisement_week week_slider_img3 mt-5">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div>
+                                    <img class="img-fluid" src="img/product7.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6 week_img_content">
+                                <div class="">
+                                    <div>
+                                        <small>
+                                            <p class=" add_green">Pharmacy</p>
+                                        </small>
+                                        <p class="product_name">Lorem Ipsum is simply dummy
+                                            text</p>
+                                    </div>
+                                    <div class="product_stars_icon">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="reviews">( 119 reviews )</span>
+                                    </div>
+                                    <div class="products-par add_prod_para">
+                                        <p class="green_para2">
+                                            $44.00
+                                        </p>
+                                        <del>
+                                            $55.00
+                                        </del>
+                                    </div>
+                                    <div class="addtocartbtn ">
+                                        <a class="btn custom_wish" tabindex="-1"><i class="fa fa-heart mr-3"
+                                                aria-hidden="true"></i>Add To Wishlist</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -33,3 +33,5 @@
 <!-- Css Stylesheet -->
 <link rel="stylesheet" href="css/style.css">
 <!-- Css Stylesheet -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bs-stepper@1.3.0/dist/css/bs-stepper.min.css">

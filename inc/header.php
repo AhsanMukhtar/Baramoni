@@ -31,7 +31,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center mt-2 mb-2">
             <div class="col-lg-2 col-4">
                 <div class="logoDv">
                     <a href="index.php">
@@ -46,17 +46,19 @@
                 <div class="right_menus">
                     <div class="b_user_p">
                         <div class="b_user_p2">
-                            <img class="img-fluid" src="img/user_icon.png" alt="">
+                            <a href="profile.php"><img class="img-fluid" src="img/user_icon.png" alt=""></a>
                             <div>
                                 <span class="c_name">My Account</span>
-                                <p class="">John Doe</p>
+                                <a href="profile.php">
+                                    <p class="">John Doe</p>
+                                </a>
                             </div>
                         </div>
                         <hr class="line">
                         <div class="b_user_p2">
-                            <img class="img-fluid" src="img/icon_cart.png" alt="">
+                            <a href="productcart.php"><img class="img-fluid" src="img/icon_cart.png" alt=""></a>
                             <div>
-                                <span class="c_name">Your Cart</span>
+                                <a href="productcart.php"><span class="c_name">Your Cart</span></a>
                                 <p class="">$ 49.00</p>
                             </div>
                         </div>
@@ -76,7 +78,7 @@
                             <li class="menu-items"><a href="restaurent.php">Restaurants </a></li>
                             <li class="menu-items"><a href="travel.php">Travels</a></li>
                             <li class="menu-items"><a href="job.php">Jobs</a></li>
-                            <li class="menu-items"><a href="event.php">Events</a></li>
+                            <li class="menu-items"><a href="event-feed.php">Events</a></li>
                             <li class="menu-items"><a href="sell.php"> Sell</a></li>
                         </ul>
                     </div>
