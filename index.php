@@ -12,7 +12,7 @@
             <div class="">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 banner_content">
                             <small>
                                 <p class="green_para">Electronic Deals</p>
                             </small>
@@ -26,7 +26,9 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="slider-banner-img">
-                                <img class="img-fluid" src="img/banner-img.png" alt="">
+                                <figure>
+                                    <img class="img-fluid" src="img/banner-img.png" alt="">
+                                </figure>
                             </div>
                         </div>
                     </div>
@@ -677,7 +679,8 @@
                     <div class="organic_food_conent">
                         <p class="green_para">Foods</p>
                         <h3>Organic Foods Up To <span class="green_bpara">50%</span> Off</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum
+                        <p class="para1">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem
+                            Ipsum
                             industry's</p>
                         <a href="" class="btn">Shop Now</a>
                     </div>
@@ -687,7 +690,8 @@
                     <div class="organic_food_conent">
                         <p class="green_para">Foods</p>
                         <h3>Organic Foods Up To <span class="green_bpara">50%</span> Off</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum
+                        <p class="para1">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem
+                            Ipsum
                             industry's</p>
                         <a href="" class="btn">Shop Now</a>
                     </div>
@@ -697,7 +701,8 @@
                     <div class="organic_food_conent">
                         <p class="green_para">Foods</p>
                         <h3>Organic Foods Up To <span class="green_bpara">50%</span> Off</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum
+                        <p class="para1">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem
+                            Ipsum
                             industry's</p>
                         <a href="" class="btn">Shop Now</a>
                     </div>
@@ -712,15 +717,20 @@
         <div class="container">
             <div class="testimonial_sec">
                 <p class="green_para">
-                TESTIMONIALS
+                    TESTIMONIALS
                 </p>
                 <h3>What Our Client Says</h3>
                 <div class="testimonial_sec_content">
                     <img src="img/testimonial1.png" class="img-fluid" alt="">
                     <div class="testimonial_content">
-                        <img src="img/testimonial2.png" class="img-fluid"alt="">
+                        <img src="img/testimonial2.png" class="img-fluid" alt="">
                         <img src="img/testimonial3.png" class="img-fluid comma_img" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p class="para1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                            survived not only five centuries, but also the leap into electronic typesetting, remaining
+                            essentially unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry.</p>
                         <p class="green_para">Lorem Ipsum</p>
                         <p>CEO,</p>
                     </div>
@@ -737,7 +747,9 @@
                     <div>
                         <p class="green_para">Sell Products</p>
                         <h3 class="blue_head">You Want To Sell / Advertise Anything?</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p class="para1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                            unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <a href="" class="btn">
                             Sell Now
                         </a>

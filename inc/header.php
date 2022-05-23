@@ -16,8 +16,9 @@
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                             <i class="fa fa-linkedin" aria-hidden="true"></i>
                             <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <i class="fa fa-flag" aria-hidden="true"></i>
+
                             <div class="input-group">
+                                <i class="fa fa-flag" aria-hidden="true"></i>
                                 <select class="custom-select" id="inputGroupSelect01">
                                     <option value="L_UK">London-UK</option>
                                     <option value="Pak">Pakistan</option>
@@ -39,15 +40,15 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-7 col-1">
+            <div class="col-lg-6 col-1">
 
             </div>
-            <div class="col-lg-3 col-7">
+            <div class="col-lg-4 col-7">
                 <div class="right_menus">
                     <div class="b_user_p">
                         <div class="b_user_p2">
                             <a href="profile.php"><img class="img-fluid" src="img/user_icon.png" alt=""></a>
-                            <div>
+                            <div class="head_account">
                                 <span class="c_name">My Account</span>
                                 <a href="profile.php">
                                     <p class="">John Doe</p>
@@ -57,7 +58,7 @@
                         <hr class="line">
                         <div class="b_user_p2">
                             <a href="productcart.php"><img class="img-fluid" src="img/icon_cart.png" alt=""></a>
-                            <div>
+                            <div class="head_account">
                                 <a href="productcart.php"><span class="c_name">Your Cart</span></a>
                                 <p class="">$ 49.00</p>
                             </div>
@@ -70,10 +71,10 @@
     <div class="orange-header">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-7">
+                <div class="col-lg-6">
                     <div class="navbar_menus">
                         <ul class="menus">
-                            <li class="menu-items"><a href="index.php">HOME</a></li>
+                            <li class="menu-items"><a href="index.php">Home</a></li>
                             <li class="menu-items"><a href="shop.php">Shops</a></li>
                             <li class="menu-items"><a href="restaurent.php">Restaurants </a></li>
                             <li class="menu-items"><a href="travel.php">Travels</a></li>
@@ -86,7 +87,7 @@
                 <div class="col-lg-2">
 
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <div class="input-group align-items-center">
                         <input type="text" class="form-control" placeholder="Search here" aria-label="search-here"
                             aria-describedby="basic-addon1">

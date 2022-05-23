@@ -17,6 +17,10 @@
   font-family: 'gm';
   src: url(../fonts/GothamMedium.ttf);
 }
+@font-face {
+  font-family: 'gtwm';
+  src: url(../fonts/GTWalsheimPro-Medium.ttf);
+}
 /* Universal Css Start Here */
 :root {
   --first-color: #81be41;
@@ -65,10 +69,10 @@ a.btn {
   background: #619700;
   color: #fff;
   font-size: 14px;
-  padding: 10px 20px;
+  padding: 10px 25px;
   font-weight: 500;
   transition: 0.6s;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 .btn {
   background: #619700;
@@ -188,7 +192,7 @@ header .canvas_btn i.fa.fa-bars {
 }
 .b_user_p span.c_name {
   color: #697F87;
-  font-size: 16px;
+  font-size: 14px;
 }
 hr.line {
   border-top: 36px solid #707070;
@@ -198,16 +202,21 @@ hr.line {
 .b_user_p p {
   margin: 0;
   color: #000;
+  font-size: 13px;
 }
 .b_user_p2 {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 15px;
+}
+#header-top .head_account {
+  line-height: 15px;
 }
 .b_user_p {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 30px;
+  justify-content: end;
 }
 p.para1 {
   font-size: 14px;
@@ -216,6 +225,7 @@ p.para1 {
   color: #fff;
   margin: 0;
   line-height: 36px;
+  font-size: 12px;
 }
 #header-top .heading_top .custom-select option {
   background: none;
@@ -223,12 +233,17 @@ p.para1 {
 }
 #header-top .header-green {
   background: #619700;
-  padding: 10px;
+  /* padding: 10px; */
 }
 #header-top .heading_top .custom-select {
   border: 0;
   color: #fff;
   background: transparent;
+  font-size: 14px;
+  background: url(../img/icon_down.png) no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  
 }
 #header-top .heading_top {
   display: flex;
@@ -238,6 +253,20 @@ p.para1 {
 }
 #header-top .heading_top {
   color: #fff;
+}
+#header-top .heading_top i {
+  font-size: 13px;
+}
+#header-top .heading_top span {
+  text-transform: capitalize;
+  font-size: 14px;
+}
+#header-top .heading_top .input-group {
+  align-items: center;
+  margin-left: 1.5rem;
+}
+#header-top .heading_top i:not(:first-child) {
+  padding-left: 6px;
 }
 #header-top {
   /* padding: 20px 0; */
@@ -252,12 +281,15 @@ p.para1 {
   display: inline-block;
   margin: 0 12px;
 }
+#header-top ul.menus li:nth-child(1) {
+  margin-left: 0;
+}
 #header-top ul.menus li a {
   font-size: 14px;
   color: #fff;
   text-decoration: none;
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: inherit;
 }
 #header-top ul.action_links {
   padding: 0;
@@ -362,9 +394,13 @@ section.paralax_scroll {
 }
 .banner_slider_sec h3 {
   color: #fff;
+  font-family: 'gtwm';
+  font-size: 42px;
+  margin: 10px 0;
 }
 .banner_slider_sec p {
   color: #fff;
+  font-size: 14px;
 }
 .slider-banner-img img:hover {
   transform: scale(1.1);
@@ -385,11 +421,54 @@ section.paralax_scroll {
   width: 279px;
   height: 390px;
 }
+.slider-banner-img figure {
+  position: relative;
+}
+.slider-banner-img figure:hover:before{
+  opacity:1;
+  transition:.5s;
+}
+.slider-banner-img figure:before {
+  content: "40% OFF";
+  position: absolute;
+  font-size: 70px;
+  color: #fff;
+  opacity: 0;
+  transition: .5s;
+  left: -12rem;
+  top: 0;
+}
+.banner_slider_sec .slick-dots li button:before {
+  font-size: 18px;
+  color: #619700;
+}
+.banner_slider_sec .slick-dots li.slick-active button:before{
+  color: #fff;
+  border: 3px solid #619700;
+  border-radius: 50%;
+  width: 21px;
+  height: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  opacity: 1;
+  }
+  .banner_slider_sec .slick-dots{
+    bottom: 50px;
+    left: 0;
+  }
+section.section-banner .banner_content {
+    margin: auto;
+}
 /* banner slider section end here*/
 /* our product section start here */
 .products-par {
   display: flex;
   gap: 20px;
+}
+.products-par del {
+  color: #607C8B;
+  font-family: 'gtwm';
+  font-size: 14px;
 }
 p.green_para {
   color: #619700;
@@ -409,13 +488,17 @@ p.product_name {
 span.reviews {
   margin-left: 1rem;
   color: #274D5E;
+  font-size: 12px;
+    font-family: 'gtwm';
 }
 .product_stars_icon {
   font-size: 14px;
+  margin-bottom: 1rem;
 }
 p.green_para2 {
   color: #619700;
-  font-weight: bold;
+  /* font-weight: bold; */
+  font-family: 'gtwb';
 }
 .addtocartbtn .btn {
   color: #fff !important;
@@ -447,8 +530,17 @@ p.green_para2 {
 }
 .ourproduct-head h4 {
   color: #274D5E;
-  font-weight: revert;
+  /* font-weight: revert; */
+  font-size: 35px;
+  font-family: 'gtwm';
 }
+.express_deal-sec span {
+  font-size: 14px;
+  font-family: 'gtwb';
+}
+.express_deal-sec span:not(:first-child) {
+  padding-left: 1.5rem;
+} 
 /* our product section end here */
 /* section express deal start here */
 .express_deal-sec {
@@ -466,6 +558,11 @@ p.green_para2 {
   margin: auto;
   padding: 0 2rem;
   padding-left: 0;
+}
+.week_img_content small p {
+  margin-bottom: .7rem;
+  color: #000;
+  font-family: 'gtwm';
 }
 .week_slider_img {
   background: url(../img/weekdeals1.png);
@@ -541,6 +638,31 @@ div#twdeal .twdcol {
 .organic_food_sec {
   position: relative;
 }
+.organic_food_sec .slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: black;
+  color: #fff;
+  border: 5px solid #619700;
+  border-radius: 50%;
+  /* width: 22px; */
+  /* height: 22px; */
+  font-size: 11px;
+  /* line-height: 16px; */
+  line-height: initial;
+  opacity: 1;
+}
+.organic_food_sec .slick-dots{
+  bottom: -40px;
+}
+.organic_food_sec .slick-dots li button:before{
+  font-size: 18px;
+    color: #619700;
+    opacity: .75;
+}
+section.organic_food_section {
+  background: url(../img/organicefood1.png);
+  padding: 3rem;
+}
 /* organic food section end here */
 /* testimonial section start here */
 .testimonial_content {
@@ -564,6 +686,10 @@ div#twdeal .twdcol {
 .blue_head {
   color: #274D5E;
   font-weight: 500;
+}
+.testimonial_sec p.green_para {
+  font-family: 'gtwm';
+  font-size: 13px;
 }
 /* testimonial section end here */
 
