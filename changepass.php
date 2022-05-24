@@ -42,7 +42,7 @@
                 </div>
             </div>
             <div class="col-md-9">
-                <h3>
+                <h3 class="basic_head">
                     Change Password
                 </h3>
                 <div class="information">
@@ -51,23 +51,20 @@
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-md-6 col-xs-12">
-                                    <label for="cPassword">Current Password</label>
                                     <input type="password" class="form-control" name="cPassword" id="cPassword"
-                                        placeholder="*********" required="required">
+                                        placeholder="Current Password" required="required">
                                 </div>
                                 <div class="col-md-6 col-xs-12">
-                                    <label for="nPassword">New Password</label>
                                     <input type="password" class="form-control" name="nPassword" id="nPassword"
-                                        placeholder="*********" required="required">
+                                        placeholder="New Password" required="required">
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-md-6 col-xs-12">
-                                    <label for="ConfirmPassword">Confirm Password</label>
                                     <input type="password" class="form-control" name="ConfirmPassword"
-                                        id="ConfirmPassword" placeholder="********" required="required">
+                                        id="ConfirmPassword" placeholder="Confirm Password" required="required">
                                 </div>
                                 <div class="col-md-6 col-xs-12 btn-right">
                                     <button type="submit" class="btn">Save</button>

@@ -15,7 +15,7 @@
     <section class="shop_sec job_section">
         <section class="section-head">
             <div class="head-page">
-                <h3 class="heading-page">Advertisment</h3>
+                <h3 class="heading-page">Job</h3>
             </div>
         </section>
         <div class="container">
@@ -181,14 +181,14 @@
                                     <img src="img/logo.png" class="img-fluid" alt="">
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div>
                                     <p class="job_para">Lorem Ipsum Dolor</p>
                                     <p class="job_g_para">($ 40) to ( $ 500)</p>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div>
+                            <div class="col-md-5">
+                                <div class="text-center">
                                     <p class="job_b_para"> ( 1 years experience Required)</p>
                                     <div>
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -211,14 +211,14 @@
                                     <img src="img/logo.png" class="img-fluid" alt="">
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div>
                                     <p class="job_para">Lorem Ipsum Dolor</p>
                                     <p class="job_g_para">($ 40) to ( $ 500)</p>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div>
+                            <div class="col-md-5">
+                                <div class="text-center">
                                     <p class="job_b_para"> ( 1 years experience Required)</p>
                                     <div>
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -241,14 +241,14 @@
                                     <img src="img/logo.png" class="img-fluid" alt="">
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div>
                                     <p class="job_para">Lorem Ipsum Dolor</p>
                                     <p class="job_g_para">($ 40) to ( $ 500)</p>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div>
+                            <div class="col-md-5">
+                                <div class="text-center">
                                     <p class="job_b_para"> ( 1 years experience Required)</p>
                                     <div>
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -271,14 +271,14 @@
                                     <img src="img/logo.png" class="img-fluid" alt="">
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div>
                                     <p class="job_para">Lorem Ipsum Dolor</p>
                                     <p class="job_g_para">($ 40) to ( $ 500)</p>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div>
+                            <div class="col-md-5">
+                                <div class="text-center">
                                     <p class="job_b_para"> ( 1 years experience Required)</p>
                                     <div>
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -301,14 +301,14 @@
                                     <img src="img/logo.png" class="img-fluid" alt="">
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div>
                                     <p class="job_para">Lorem Ipsum Dolor</p>
                                     <p class="job_g_para">($ 40) to ( $ 500)</p>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="">
+                            <div class="col-md-5">
+                                <div class="text-center">
                                     <p class="job_b_para"> ( 1 years experience Required)</p>
                                     <div class=" mt-2">
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -331,14 +331,14 @@
                                     <img src="img/logo.png" class="img-fluid" alt="">
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div>
                                     <p class="job_para">Lorem Ipsum Dolor</p>
                                     <p class="job_g_para">($ 40) to ( $ 500)</p>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="">
+                            <div class="col-md-5">
+                                <div class="text-center">
                                     <p class="job_b_para"> ( 1 years experience Required)</p>
                                     <div class=" mt-2">
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>

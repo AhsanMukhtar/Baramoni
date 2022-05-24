@@ -37,7 +37,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/travel1.png" alt="">
+                            <img class="img-fluid" src="img/tra1.png" alt="">
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -56,7 +56,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/travel2.png" alt="">
+                            <img class="img-fluid" src="img/tra2.png" alt="">
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -75,7 +75,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/travel3.png" alt="">
+                            <img class="img-fluid" src="img/tra3.png" alt="">
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -94,7 +94,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/travel4.png" alt="">
+                            <img class="img-fluid" src="img/tra4.png" alt="">
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -116,7 +116,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/travel5.png" alt="">
+                            <img class="img-fluid" src="img/tra5.png" alt="">
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -135,7 +135,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/travel6.png" alt="">
+                            <img class="img-fluid" src="img/tra6.png" alt="">
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -154,7 +154,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/travel7.png" alt="">
+                            <img class="img-fluid" src="img/tra7.png" alt="">
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -173,7 +173,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/travel8.png" alt="">
+                            <img class="img-fluid" src="img/tra8.png" alt="">
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -194,7 +194,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/travel9.png" alt="">
+                            <img class="img-fluid" src="img/tra9.png" alt="">
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -213,7 +213,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/travel10.png" alt="">
+                            <img class="img-fluid" src="img/tra10.png" alt="">
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -232,7 +232,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/travel11.png" alt="">
+                            <img class="img-fluid" src="img/tra11.png" alt="">
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -251,7 +251,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/travel12.png" alt="">
+                            <img class="img-fluid" src="img/tra12.png" alt="">
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -269,15 +269,22 @@
                     </div>
 
                 </div>
-                <!-- <div class="pagination">
+                <div class="pagination">
                     <nav aria-label="Page navigation example">
-                        <ul class="pagination">
+                        <ul class="paginations">
+                            <li class="active">01</li>
+                            <li>02</li>
+                            <li>03</li>
+                            <li>04</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                        </ul>
+                        <!-- <ul class="pagination">
                             <li class="page-item">
-                                <!-- <a class="page-link" href="#" aria-label="Previous">
+                                 <a class="page-link" href="#" aria-label="Previous">
                                     <span aria-hidden="true">&laquo;</span>
                                     <span class="sr-only">Previous</span>
-                                </a> -->
-                            <!-- </li>
+                                </a>
+                            </li>
                             <li class="page-item"><a class="page-link" href="#">1</a></li>
                             <li class="page-item"><a class="page-link" href="#">2</a></li>
                             <li class="page-item"><a class="page-link" href="#">3</a></li>
@@ -287,9 +294,9 @@
                                     <span class="sr-only">Next</span>
                                 </a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </nav>
-                </div>  -->
+                </div>
 
             </div>
 

@@ -3,6 +3,11 @@
     color: #274D5E;
     font-size: 14px;
   }
+  h3.basic_head {
+    font-size: 23px;
+    font-family: 'gtwm';
+    color: #274D5E;
+}
 .profileanc1 {
     display: flex;
     align-items: center;
@@ -17,18 +22,43 @@
     color: white;
     margin: 0;
     padding-left: 1rem;
+    font-family: 'gtw';
 }
 .useriamge img {
-    height: 160px;
-    width: 160px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
   }
-  
+  .useriamgetext {
+    margin: 1.5rem 0px;
+}
+.row.profile-h .col-md-3 a{
+  margin: 1.5rem 0px;
+}
   .useriamge {
     border-radius: 50%;
-    width: 160px;
-    height: 160px;
+    width: 100px;
+    height: 100px;
   }
+  .user-profile-sec .useriamge {
+    height: 160px;
+    width: 160px;
+}
+.user-profile-sec .useriamge img {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+}
+section.ProfileInfo-section .form-start .form-control::placeholder{
+  color: #274D5E;
+  font-family: 'gtwm';
+}
+.form-start .form-group .btn {
+  background: #3DA033;
+}
+.form-start .btn-right .btn {
+  background: #3DA033;
+}
   .profile-sec-head .contact-us-head {
     padding: 4rem;
   }
@@ -89,6 +119,7 @@
   
   .col-md-3.profilec span {
     font-size: 13px;
+    color: #989898;
   }
   /* .profilen {
     display: flex;
@@ -100,8 +131,10 @@
     margin: 0;
   }
   .profilen a {
-    font-size: 13px;
+    font-size: 15px;
     text-decoration: underline;
+    color: #3DA033;
+    padding-bottom: 5px;
   }
   .profileanc {
     display: flex;
@@ -119,12 +152,17 @@
   }
   .row.profile-h {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
   }
   .row.profile-h .col-md-3 a {
     text-decoration: underline;
-    color: black;
+    color: #3DA033;
+    margin: 1.5rem 0px;
   }
+  .row.profile-h .col-md-3 {
+    margin: 1.5rem 0;
+    height: fit-content;
+}
   .information {
     border-radius: 6px;
     box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.27);
@@ -153,6 +191,7 @@
     /* border-bottom: 1px solid #CECECE; */
     width: 100%;
     padding-bottom: 1rem;
+    color: #274D5E;
 }
 .agentprofile hr.line {
     border-top: 1px solid #CECECE;

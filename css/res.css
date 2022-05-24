@@ -10,6 +10,8 @@
     font-family: 'gtw';
     font-weight: 700;
     margin: 0;
+    margin-top: 10px;
+    margin-bottom: -12px;
 }
 
 .all-box h3 {
@@ -43,9 +45,16 @@
 }
 
 select#cars {
-    padding: 10px 40px;
+    padding: 0.8rem 7.5rem 0.8rem 1rem;
     border: none;
-    box-shadow: 0px 0px 5px #00000045;
+    /* box-shadow: 0px 0px 5px #00000045; */
+    -webkit-box-shadow: 0px 4px 5px 0px rgb(0 0 0 / 12%);
+    background: #FCFCFC;
+    -webkit-appearance: none;
+    background-image: url(../img/icon_dropdown.png);
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
 }
 
 .res-drop {
@@ -69,4 +78,28 @@ select#cars {
     font-family: 'gtw';
     font-weight: 500;
 }
+section.res-sec ul.paginations {margin: 50px 0 0;
+    padding: 0;
+    list-style: none;
+    display: table;}
+
+    section.res-sec  ul.paginations li.active {color: #fff;
+    border-color: #619700;
+    background: #619700;}
+
+    section.res-sec ul.paginations li {color: #000;
+    display: inline-block;
+    border: 1px solid #ffffff6b;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 0 5px;
+    font-family: "Montserrat";
+    line-height: 30px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;}
+    section.res-sec ul.paginations i.fa.fa-angle-right {
+        font-size: 23px;
+    }
 /* End of res section  */

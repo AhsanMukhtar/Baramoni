@@ -42,17 +42,17 @@
                 </div>
             </div>
             <div class="col-md-9">
-                <h3>
+                <h3 class="basic_head">
                     Basic Information
                 </h3>
                 <div class="information">
                     <div class="row profile-h">
-                        <div class="col-md-3">
+                        <div class="col-md-2">
                             <div class="useriamge">
                                 <img src="img/userimg.png" class="img-fluid" alt="">
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-7">
                             <div class="useriamgetext">
                                 <div class="photo">
                                     <p>Photo</p>
@@ -97,7 +97,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row mt-4">
+                    <div class="row mt-4 mb-5">
                         <div class="col-md-6">
                             <div class="profilen">
                                 <p>Phone</p>
@@ -118,7 +118,8 @@
                         </div>
 
                     </div>
-                    <div class="row mt-4">
+                    <hr>
+                    <div class="row mt-5">
                         <div class="col-md-12 profilen ">
 
                             <div class="profileanc1">
@@ -159,9 +160,9 @@
                             </span>
                         </div>
                         <div class="col-md-3 profilec">
-                            <span class="profiled">
+                            <p class="profiled">
                                 Zip Code
-                            </span>
+                            </p>
                             <span>
                                 Lorem Ipsum
                             </span>

@@ -69,16 +69,16 @@ a.btn {
   background: #619700;
   color: #fff;
   font-size: 14px;
-  padding: 10px 25px;
+  padding: 10px 30px;
   font-weight: 500;
   transition: 0.6s;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 .btn {
   background: #619700;
   color: #fff;
   font-size: 14px;
-  padding: 10px 20px;
+  padding: 10px 30px;
   font-weight: 500;
   transition: 0.6s;
   border-radius: 5px;
@@ -203,6 +203,7 @@ hr.line {
   margin: 0;
   color: #000;
   font-size: 13px;
+  font-family: 'gtwm';
 }
 .b_user_p2 {
   display: flex;
@@ -473,6 +474,7 @@ section.section-banner .banner_content {
 p.green_para {
   color: #619700;
   margin: 0;
+  font-family: 'gtwm';
 }
 .green_para {
   color: #619700;
@@ -515,9 +517,9 @@ p.green_para2 {
 .product-sec {
   padding: 1rem;
   background: #fff;
-  box-shadow: 0px 0px 13px 1px rgb(0 0 0 / 10%);
-  -webkit-box-shadow: 0px 0px 13px 1px rgb(0 0 0 / 10%);
-  -moz-box-shadow: 0px 0px 13px 1px rgb(0 0 0 / 10%);
+  box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 6%);
+  -webkit-box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 6%);
+  -moz-box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 6%);
 }
 .ourproduct-head {
   display: flex;
@@ -565,25 +567,31 @@ p.green_para2 {
   font-family: 'gtwm';
 }
 .week_slider_img {
-  background: url(../img/weekdeals1.png);
+  background: url(../img/weekdeals1.png) no-repeat;
   box-shadow: 0px 0px 13px 1px rgb(0 0 0 / 10%);
   -webkit-box-shadow: 0px 0px 13px 1px rgb(0 0 0 / 10%);
   -moz-box-shadow: 0px 0px 13px 1px rgb(0 0 0 / 10%);
-  padding: 1rem;
+  /* padding: 1rem; */
+  background-size: cover;
+  margin: 0 2rem;
 }
 .week_slider_img2 {
-  background: url(../img/weekdeals2.png);
+  background: url(../img/weekdeals2.png) no-repeat;
   box-shadow: 0px 0px 13px 1px rgb(0 0 0 / 10%);
   -webkit-box-shadow: 0px 0px 13px 1px rgb(0 0 0 / 10%);
   -moz-box-shadow: 0px 0px 13px 1px rgb(0 0 0 / 10%);
-  padding: 1rem;
+  /* padding: 1rem; */
+  background-size: cover;
+  margin: 0 2rem;
 }
 .week_slider_img3 {
-  background: url(../img/weekdeals3.png);
+  background: url(../img/weekdeals3.png) no-repeat;
   box-shadow: 0px 0px 13px 1px rgb(0 0 0 / 10%);
   -webkit-box-shadow: 0px 0px 13px 1px rgb(0 0 0 / 10%);
   -moz-box-shadow: 0px 0px 13px 1px rgb(0 0 0 / 10%);
-  padding: 1rem;
+  /* padding: 1rem; */
+  background-size: cover;
+  margin: 0 2rem;
 }
 div#twdeal {
   margin-left: 9rem;
@@ -596,8 +604,9 @@ div#twdeal .twdcol {
   margin-top: 1rem;
 }
 .advertisement_week.week_slider img {
-  width: 380px;
-  height: 330px;
+  width: 300px;
+  height: 300px;
+  padding: 2rem;
 }
 .btn.custom_wish {
   border-radius: 2px;
@@ -666,9 +675,15 @@ section.organic_food_section {
 /* organic food section end here */
 /* testimonial section start here */
 .testimonial_content {
-  position: absolute;
+  /* position: absolute; */
   text-align: center;
-  top: -51px;
+  /* top: -51px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: inherit;
 }
 .testimonial_sec_content {
   position: relative;
@@ -680,9 +695,59 @@ section.organic_food_section {
 .testimonial_sec {
   text-align: center;
 }
-.testimonial_sec h3 {
+.testimonial_sec h4 {
   margin-bottom: 5rem;
+  font-family: 'gtwm';
+  font-size: 35px;
+  color: #274D5E;
 }
+.testimonial_content p.para1 {
+  /* padding: 0px 10rem; */
+  font-family: 'gtwm';
+  width: 599px;
+    /* margin: 30px auto; */
+}
+.testimonial_carousel {
+  background: url(../img/testimonial1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position-y: 52px !important;
+}
+.testimonial_content p.ceo_txt {
+  color: #818181;
+  font-size: 12px;
+}
+.testimonial_sec_content .slick-next:before{
+  content: "\f105";
+    color: #fff;
+    font-family: "FontAwesome";
+    font-size: 15px;
+    outline: 4px solid #0000003b;
+    box-shadow: 0px 0px 0px 8px rgb(147 145 145 / 76%);
+    opacity: 1;
+    border-radius: 1px;
+    right: 0;
+}
+.testimonial_sec_content .slick-prev:before,.testimonial_sec_content .slick-next:before{
+  position: absolute;
+  bottom: -60px;
+  top: unset;
+  background: #000;
+  padding: 11px 15px;
+  z-index: 9;
+}
+.testimonial_sec_content .slick-prev:before{
+  content: "\f104";
+    color: #fff;
+    font-family: "FontAwesome";
+    font-size: 15px;
+    left: -8px;
+    outline: 4px solid #0000003b;
+    box-shadow: 0px 0px 0px 8px rgb(147 145 145 / 76%);
+    opacity: 1;
+    border-radius: 1px;
+}
+
 .blue_head {
   color: #274D5E;
   font-weight: 500;
@@ -752,13 +817,17 @@ footer {
 }
 footer .footer_content {
   margin-bottom: 35px;
+  padding-left: 2rem;
+  padding-top: 2rem;
 }
 footer .footer_content p {
   margin: 20px 0;
-  font-size: 15px;
+  font-size: 12px;
   color: #fff;
   line-height: 25px;
   /* padding-right: 80px; */
+  /* padding: 2rem 1rem; */
+  /* border-right: 1px solid #fff; */
 }
 footer .footer_content ul.social_links {
   padding: 0;
@@ -779,20 +848,48 @@ footer .footer_content ul.social_links li a {
   color: #fff;
 }
 footer .footer_content .head h5 {
-  font-size: 22px;
-  color: #fff;
-  font-weight: 600;
-  padding-bottom: 20px;
+  font-size: 18px;
+    color: #fff;
+    /* padding-bottom: 20px; */
+    font-family: 'gtwm';
 }
 footer .footer_content ul.footer_menus {
   margin: 0;
   padding: 0;
   list-style: none;
+  /* border-right: 1px solid #fff; */
+  /* padding: 2rem 1rem; */
+}
+footer .footer_content:after {
+  content: "";
+  border-right: 1px solid #274D5E;
+  width: 1px;
+  height: 60%;
+  position: absolute;
+  top: 4rem;
+  left: 0;
+}
+footer .col-lg-4:nth-child(1) .footer_content:after{
+  border: 0;
+}
+footer .footer_content p:after {
+  content: "";
+  border-right: 1px solid #274D5E;
+  width: 1px;
+  height: 60%;
+  position: absolute;
+  top: 4rem;
+  right: 0;
+}
+footer .footer_content ul.social_links .icon_instagram {
+  width: 15px;
+  vertical-align: baseline;
 }
 footer .footer_content ul.footer_menus li a {
   color: #fff;
   font-weight: 400;
   text-decoration: none;
+  font-size: 12px;
 }
 footer .footer_content ul.footer_menus li {
   margin: 10px 0;
@@ -817,6 +914,10 @@ footer .footer_content ul.info li a {
   text-decoration: none;
   font-weight: 500;
   text-transform: uppercase;
+  font-size: 12px;
+}
+footer .footer_content ul.info i {
+  margin-right: 7px;
 }
 footer .footer_content ul.info li img {
   width: 15px;
@@ -832,6 +933,9 @@ footer .footer_content ul.info li img {
   margin: 0;
   font-size: 14px;
   font-weight: 500;
+  color: #fff;
+}
+.copyright .copyright_para a {
   color: #fff;
 }
 .copyright .copyright_para {
@@ -899,5 +1003,6 @@ footer .footer_content ul.info li img {
   text-align: center;
   width: 100%;
   padding-top: 6rem;
+  font-size: 40px;
 }
 /* every page head section end here */

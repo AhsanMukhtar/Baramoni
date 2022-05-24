@@ -23,7 +23,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="footer_content">
                     <div class="ft-logoDv">
-                        <figure><img src="img/flogo.png" class="img-fluid"></figure>
+                        <figure><img src="img/logo.png" class="img-fluid"></figure>
                     </div>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sagittis mi faucibus risus
@@ -41,8 +41,8 @@
                                 <h5>Quick Links</h5>
                             </div>
                             <ul class="footer_menus">
-                                <li><a href="#">Lorem ipsum</a></li>
-                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="contactus.php">Contact Us</a></li>
+                                <li><a href="advertisement.php">Advertisement</a></li>
                                 <li><a href="#">Lorem ipsum</a></li>
                                 <li><a href="#">Lorem ipsum</a></li>
                                 <li><a href="#">Lorem ipsum</a></li>
@@ -52,7 +52,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="footer_content">
                             <div class="head">
-                                <h5>LEGAL</h5>
+                                <h5>Address</h5>
                             </div>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,
@@ -70,7 +70,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="footer_content">
                             <div class="head">
-                                <h5>contact us</h5>
+                                <h5>Contact Us</h5>
                             </div>
                             <ul class="info">
                                 <li><a href="#"><i class="fa fa-phone"></i> (800) 0123-456-789</a></li>
@@ -82,7 +82,7 @@
                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><img src="img/icon_instagram.svg" class="img-fluid icon_instagram" alt=""></a></li>
                             </ul>
                         </div>
                     </div>
@@ -96,7 +96,7 @@
     <div class="container">
         <div class="copyright_para">
             <p>©Copyright Warmlanka.com 2022. All rights reserved.</p>
-            <p>Privicy policy I Terms of conditions</p>
+            <p><a href="privacypolicy.php">Privicy policy</a> | <a href="termsncondition.php">Terms of conditions</a></p>
         </div>
     </div>
 </div>

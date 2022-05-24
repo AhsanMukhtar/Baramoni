@@ -146,6 +146,10 @@ section.ProfileInfo-section .col-md-7 p {
   position: relative;
   max-width: 220px;
 }
+section.ProfileInfo-section .form-start .form-control::placeholder{
+  color: #274D5E;
+  font-family: 'gtwm';
+}
 .avatar-edit label {
   position: absolute;
   right: 3rem;
@@ -157,16 +161,20 @@ section.ProfileInfo-section .col-md-7 p {
   margin: 0 20px;
   color: #fff;
   font-family: "Poppins";
-  font-size: 15px;
+  font-size: 12px;
   padding: 20px 0;
   line-height: 0;
   border-radius: 5px;
   cursor: pointer;
+  right: 8rem;
 }
 .avatar-edit input {
   display: none;
 }
-.jpg-png p {font-size: 12px;}
+.jpg-png p {
+  font-size: 12px;
+  color: #274D5E;
+}
 .loader-pro {
   text-align: right;
 }

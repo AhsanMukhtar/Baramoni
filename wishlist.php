@@ -35,14 +35,14 @@
                     <hr class="line">
                     <div class="username1"><a href="wishlist.php">My Wishlist</a></div>
                     <hr class="line">
-                    <div class="username1"><a href="chat.php">Chat</a></div>
+                    <div class="username1"><a href="#">Chat</a></div>
                     <hr class="line">
                     <div class="username1"><a href="signin.php">Log Out</a></div>
 
                 </div>
             </div>
             <div class="col-md-9">
-                <h3>
+                <h3 class="basic_head">
                     My wishlist
                 </h3>
                 <div class="">
@@ -61,7 +61,7 @@
                                     <div class="pro-content">
                                         <h5 class="wishlist-name">Lorem ipsum dolor sit</h5>
                                         <h5 class="price">$ 49.00</h5>
-                                        <h6 class="stocks">In Stock : <span style="color:#1AAC7A"></span> (02)</h6>
+                                        <h6 class="stocks">In Stock : <span style="color:#1AAC7A">(02)</span> </h6>
                                     </div>
                                 </div>
                                 <button class="btn">Add to cart</button>
@@ -77,7 +77,7 @@
                                     <div class="pro-content">
                                         <h5 class="wishlist-name">Lorem ipsum dolor sit</h5>
                                         <h5 class="price">$ 49.00</h5>
-                                        <h6 class="stocks">In Stock : <span style="color:#1AAC7A"></span> (02)</h6>
+                                        <h6 class="stocks">In Stock : <span style="color:#1AAC7A">(02)</span> </h6>
                                     </div>
                                 </div>
                                 <button class="btn">Add to cart</button>
@@ -93,7 +93,7 @@
                                     <div class="pro-content">
                                         <h5 class="wishlist-name">Lorem ipsum dolor sit</h5>
                                         <h5 class="price">$ 49.00</h5>
-                                        <h6 class="stocks">In Stock : <span style="color:#1AAC7A"></span> (02)</h6>
+                                        <h6 class="stocks">In Stock : <span style="color:#1AAC7A">(02)</span> </h6>
                                     </div>
                                 </div>
                                 <button class="btn">Add to cart</button>

@@ -9,3 +9,7 @@ section.ProfileInfo-section.changephoneno p.eoc {
     text-align: center;
     font-size: 14px;
 }
+section.ProfileInfo-section .form-start .form-control::placeholder{
+    color: #274D5E;
+    font-family: 'gtwm';
+  }

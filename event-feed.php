@@ -9,7 +9,7 @@
 <section class="paralax_scroll">
     <section class="about-us-section">
         <div class="head-page">
-            <h3 class="heading-page">EVENT FEED</h3>
+            <h3 class="heading-page">Upcoming Events</h3>
         </div>
         <section class="yellow-container features-sec event-feed-section mt-5">
             <div class="container">
@@ -36,7 +36,7 @@
                                     <p>VENUE: UNITED STATES</p>
                                 </div>
                                 <hr>
-                                <a href="event-detail.php" class="btn about bl">View Details</a>
+                                <a href="#" class="btn about bl">View Details</a>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -73,7 +73,7 @@
                                     <p>VENUE: UNITED STATES</p>
                                 </div>
                                 <hr>
-                                <a href="event-detail.php" class="btn about bl">View Details</a>
+                                <a href="#" class="btn about bl">View Details</a>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -110,7 +110,7 @@
                                     <p>VENUE: UNITED STATES</p>
                                 </div>
                                 <hr>
-                                <a href="event-detail.php" class="btn about bl">View Details</a>
+                                <a href="#" class="btn about bl">View Details</a>
                             </div>
                         </div>
                         <div class="col-md-6">

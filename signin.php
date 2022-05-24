@@ -21,7 +21,7 @@
         <div class="container">
             <div class="signin_heading_sec">
                 <h3>Sign In</h3>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy aliquyam erat, sed diam
+                <p class="grey_txt">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy aliquyam erat, sed diam
                     voluptua.
                 </p>
             </div>
@@ -60,7 +60,7 @@
                                                 <a href="forgetpassword.php">Forget Password</a>
                                             </div>
                                         </div>
-                                        <div class="form-group">
+                                        <div class="form-group mt-4">
                                             <div class="row">
                                                 <div class="col-md-12 col-xs-12 btn-right ">
                                                     <a href="profile.php" type="submit" class="btn w-100">Sign In</a>
@@ -77,14 +77,14 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 dhaa_section">
                         <div class="dhaa_sec text-center">
                             <h3>DON'T HAVE AN ACCOUNT?</h3>
-                            <p>
+                            <p class="grey_txt">
                                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                                 invidunt ut labore et dolore magna
                             </p>
-                            <a href="signup.php" class="btn">Register Your Account</a>
+                            <a href="signup.php" class="btn reg_btn">Register Your Account</a>
                         </div>
                     </div>
                 </div>

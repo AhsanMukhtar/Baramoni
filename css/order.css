@@ -196,7 +196,7 @@ p.hoseusa {
     padding: 23px 20px;
     text-align: center;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     color: #274d5e;
   }
   .order-table-wrapper tr.row2 td {
@@ -216,17 +216,23 @@ p.hoseusa {
   .order-table-wrapper .row2 td {
     color: #274d5e;
     font-family: "GT Walsheim Pro Regular";
-    font-size: 16px;
+    font-size: 14px;
   }
    .order-table-wrapper td.paid {
     color: #00bc26;
   }
+  h3.basic_head {
+    font-size: 23px;
+    font-family: 'gtwm';
+    color: #274D5E;
+}
   .order-table-wrapper .order-details a {
     color: #3DA033;
     text-transform: uppercase;
-    font-family: "GT Walsheim Pro Regular";
-    font-weight: bold;
+    font-family: "gtwm";
+    /* font-weight: bold; */
     text-decoration: underline;
+    font-size: 14px;
   }
   .pagination-wrapper a.page-link {
     display: flex;

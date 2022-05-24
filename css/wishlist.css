@@ -188,6 +188,16 @@ p.hoseusa {
 }
   /* profile section End */
 /* wishlist css starts here */
+h3.basic_head {
+  font-size: 23px;
+  font-family: 'gtwm';
+  color: #274D5E;
+}
+.pro-detail-wrapper .card-wrapper button.close i.fa.fa-close {
+  font-size: 18px;
+  font-weight: lighter;
+  opacity: 1;
+}
 .card-wrapper {
     display: flex;
     align-items: center;
@@ -209,6 +219,7 @@ p.hoseusa {
   }
   .card-wrapper button.btn {
     flex: 1;
+    background: #3DA033;
   }
   .pro-content-wrapper img {
     background: #3DA033;
@@ -221,14 +232,14 @@ p.hoseusa {
   .pro-content h5 {
     color: #274d5e;
     font-size: 16px;
-    font-family: "GT Walsheim Pro black";
+    font-family: "gtw";
     font-weight: 500;
     margin: 0px;
   }
   .pro-content h6.stocks {
     font-size: 14px;
     color: #274d5e;
-    font-family: "GT Walsheim Pro black";
+    font-family: "gtw";
     font-weight: 500;
   }
   /* wishlist css ends here */

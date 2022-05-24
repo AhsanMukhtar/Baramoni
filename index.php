@@ -719,20 +719,41 @@
                 <p class="green_para">
                     TESTIMONIALS
                 </p>
-                <h3>What Our Client Says</h3>
+                <h4>What Our Client Says</h4>
                 <div class="testimonial_sec_content">
-                    <img src="img/testimonial1.png" class="img-fluid" alt="">
-                    <div class="testimonial_content">
-                        <img src="img/testimonial2.png" class="img-fluid" alt="">
-                        <img src="img/testimonial3.png" class="img-fluid comma_img" alt="">
-                        <p class="para1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting, remaining
-                            essentially unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry.</p>
-                        <p class="green_para">Lorem Ipsum</p>
-                        <p>CEO,</p>
+                    <div class="testimonial_carousel">
+                        <!-- <img src="img/testimonial1.png" class="img-fluid" alt=""> -->
+                        <div class="testimonial_content">
+                            <img src="img/testimonial2.png" class="img-fluid test_user_img" alt="">
+                            <img src="img/testimonial3.png" class="img-fluid comma_img" alt="">
+                            <p class="para1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                                has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining
+                                essentially unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                            <p class="green_para">Lorem Ipsum</p>
+                            <p class="ceo_txt">CEO,</p>
+                        </div>
+                    </div>
+                    <div class="testimonial_carousel">
+                        <!-- <img src="img/testimonial1.png" class="img-fluid" alt=""> -->
+                        <div class="testimonial_content">
+                            <img src="img/testimonial2.png" class="img-fluid test_user_img" alt="">
+                            <img src="img/testimonial3.png" class="img-fluid comma_img" alt="">
+                            <p class="para1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                                has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining
+                                essentially unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                            <p class="green_para">Lorem Ipsum</p>
+                            <p class="ceo_txt">CEO,</p>
+                        </div>
                     </div>
                 </div>
             </div>

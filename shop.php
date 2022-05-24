@@ -152,17 +152,24 @@
                 <div class="col-lg-9">
                     <div class="row">
                         <div class="col-lg-8 drbtn">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Default Sorting
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle w-100" type="button"
+                                            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            Default Sorting
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </div>
                                 </div>
+                                <div class="col-lg-6"></div>
                             </div>
+
                         </div>
                         <div class="col-lg-4">
                             <p class="item_showing">Showing 1–12 of 40 results</p>
@@ -199,7 +206,7 @@
                                     </del>
                                 </div>
                                 <div class="addtocartbtn ">
-                                    <a class="btn"><i class="fa fa-shopping-cart mr-3" aria-hidden="true"></i>Add
+                                    <a href="product-details.php" class="btn"><i class="fa fa-shopping-cart mr-3" aria-hidden="true"></i>Add
                                         to
                                         Cart</a>
                                 </div>
@@ -235,7 +242,7 @@
                                     </del>
                                 </div>
                                 <div class="addtocartbtn ">
-                                    <a class="btn"><i class="fa fa-shopping-cart mr-3" aria-hidden="true"></i>Add
+                                    <a href="product-details.php" class="btn"><i class="fa fa-shopping-cart mr-3" aria-hidden="true"></i>Add
                                         to
                                         Cart</a>
                                 </div>
@@ -271,7 +278,7 @@
                                     </del>
                                 </div>
                                 <div class="addtocartbtn ">
-                                    <a class="btn"><i class="fa fa-shopping-cart mr-3" aria-hidden="true"></i>Add
+                                    <a href="product-details.php" class="btn"><i class="fa fa-shopping-cart mr-3" aria-hidden="true"></i>Add
                                         to
                                         Cart</a>
                                 </div>
@@ -307,7 +314,7 @@
                                     </del>
                                 </div>
                                 <div class="addtocartbtn ">
-                                    <a class="btn"><i class="fa fa-shopping-cart mr-3" aria-hidden="true"></i>Add
+                                    <a href="product-details.php" class="btn"><i class="fa fa-shopping-cart mr-3" aria-hidden="true"></i>Add
                                         to
                                         Cart</a>
                                 </div>
@@ -343,7 +350,7 @@
                                     </del>
                                 </div>
                                 <div class="addtocartbtn ">
-                                    <a class="btn"><i class="fa fa-shopping-cart mr-3" aria-hidden="true"></i>Add
+                                    <a href="product-details.php" class="btn"><i class="fa fa-shopping-cart mr-3" aria-hidden="true"></i>Add
                                         to
                                         Cart</a>
                                 </div>
@@ -379,7 +386,7 @@
                                     </del>
                                 </div>
                                 <div class="addtocartbtn ">
-                                    <a class="btn"><i class="fa fa-shopping-cart mr-3" aria-hidden="true"></i>Add
+                                    <a href="product-details.php" class="btn"><i class="fa fa-shopping-cart mr-3" aria-hidden="true"></i>Add
                                         to
                                         Cart</a>
                                 </div>
@@ -415,7 +422,7 @@
                                     </del>
                                 </div>
                                 <div class="addtocartbtn ">
-                                    <a class="btn"><i class="fa fa-shopping-cart mr-3" aria-hidden="true"></i>Add
+                                    <a href="product-details.php" class="btn"><i class="fa fa-shopping-cart mr-3" aria-hidden="true"></i>Add
                                         to
                                         Cart</a>
                                 </div>
@@ -451,7 +458,7 @@
                                     </del>
                                 </div>
                                 <div class="addtocartbtn ">
-                                    <a class="btn"><i class="fa fa-shopping-cart mr-3" aria-hidden="true"></i>Add
+                                    <a href="product-details.php" class="btn"><i class="fa fa-shopping-cart mr-3" aria-hidden="true"></i>Add
                                         to
                                         Cart</a>
                                 </div>
@@ -487,7 +494,7 @@
                                     </del>
                                 </div>
                                 <div class="addtocartbtn ">
-                                    <a class="btn"><i class="fa fa-shopping-cart mr-3" aria-hidden="true"></i>Add
+                                    <a href="product-details.php" class="btn"><i class="fa fa-shopping-cart mr-3" aria-hidden="true"></i>Add
                                         to
                                         Cart</a>
                                 </div>

@@ -176,7 +176,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 text-right">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5 text-right">
                     <div class="productSummary">
                         <div class="subTotal">
                             <h6 class="rightt" style="color:#989898;">Subtotal</h6>

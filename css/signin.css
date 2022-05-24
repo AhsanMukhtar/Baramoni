@@ -1,6 +1,16 @@
 .signin_heading_sec p {
-    width: 715px;
+    width: 580px;
     margin: 0 auto;
+}
+.dhaa_section {
+    margin: auto;
+}
+.dhaa_sec.text-center h3 {
+    color: #013307;
+}
+p.grey_txt {
+    color: #707070;
+    font-size: 12px;
 }
 .signin_heading_sec {
     text-align: center;
@@ -22,6 +32,10 @@ section.sigin_section button.btn.w-100 {
 section.sigin_section a.btn {
     border-radius: 0;
     background: #3DA033;
+}
+section.sigin_section a.btn.reg_btn {
+    border-radius: 3px;
+    margin-top: 1.5rem;
 }
 .signin_form_sec .custom-check input {
     position: absolute;

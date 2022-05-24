@@ -42,8 +42,8 @@
                 </div>
             </div>
             <div class="col-md-9">
-                <h3>
-                    Change Phone Number
+                <h3 class="basic_head">
+                Change Address 
                 </h3>
                 <div class="information">
                     <div class="form-start">

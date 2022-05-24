@@ -42,7 +42,7 @@
                 </div>
             </div>
             <div class="col-md-9">
-                <h3>
+                <h3 class="basic_head">
                     My Order
                 </h3>
                 <div class="">

@@ -47,11 +47,11 @@
                 <div class="right_menus">
                     <div class="b_user_p">
                         <div class="b_user_p2">
-                            <a href="profile.php"><img class="img-fluid" src="img/user_icon.png" alt=""></a>
+                            <a href="signin.php"><img class="img-fluid" src="img/user_icon.png" alt=""></a>
                             <div class="head_account">
                                 <span class="c_name">My Account</span>
-                                <a href="profile.php">
-                                    <p class="">John Doe</p>
+                                <a href="signin.php">
+                                    <p class="">Sign In</p>
                                 </a>
                             </div>
                         </div>
@@ -76,11 +76,11 @@
                         <ul class="menus">
                             <li class="menu-items"><a href="index.php">Home</a></li>
                             <li class="menu-items"><a href="shop.php">Shops</a></li>
-                            <li class="menu-items"><a href="restaurent.php">Restaurants </a></li>
-                            <li class="menu-items"><a href="travel.php">Travels</a></li>
+                            <li class="menu-items"><a href="restaurant.php">Restaurants </a></li>
+                            <li class="menu-items"><a href="travels.php">Travels</a></li>
                             <li class="menu-items"><a href="job.php">Jobs</a></li>
                             <li class="menu-items"><a href="event-feed.php">Events</a></li>
-                            <li class="menu-items"><a href="sell.php"> Sell</a></li>
+                            <li class="menu-items"><a href="dashboard/seller-products.php"> Sell</a></li>
                         </ul>
                     </div>
                 </div>

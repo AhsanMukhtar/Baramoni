@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="col-md-9">
-                <h3>
+                <h3 class="basic_head">
                     Edit Information
                 </h3>
                 <div class="information">
@@ -114,7 +114,7 @@
                                 <div class="col-md-6 col-xs-12">
 
                                     <input type="email" class="form-control" name="email" id="inputemail"
-                                        placeholder="Lorem@gmail.com" required="required">
+                                        placeholder="Email" required="required">
                                 </div>
                                 <div class="col-md-6 col-xs-12 btn-right">
                                     <button type="submit" class="btn">Save</button>

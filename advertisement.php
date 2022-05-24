@@ -5,11 +5,14 @@
 <!-- Stylesheet -->
 <link rel="stylesheet" href="css/shop.css">
 <!-- Stylesheet -->
+<!-- Stylesheet -->
+<link rel="stylesheet" href="css/advertisement.css">
+<!-- Stylesheet -->
 
 
 <section class="paralax_scroll">
     <!-- Shop Sec Start Here -->
-    <section class="shop_sec">
+    <section class="shop_sec advertisement_sec">
         <section class="section-head">
             <div class="head-page">
                 <h3 class="heading-page">Advertisment</h3>

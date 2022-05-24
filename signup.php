@@ -21,7 +21,7 @@
         <div class="container">
             <div class="signup_heading_sec">
                 <h3>Register Your Account</h3>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy aliquyam erat, sed diam
+                <p class="grey_txt">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy aliquyam erat, sed diam
                     voluptua.
                 </p>
             </div>

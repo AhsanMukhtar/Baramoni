@@ -1,6 +1,10 @@
 .product-details {
   padding: 80px 0px;
 }
+.product-details .product-detail-img {
+  -webkit-box-shadow: 0px 4px 5px 0px rgb(0 0 0 / 12%);
+  background: #F9FBF5;
+}
 .review-wrapper ul {
   padding: 0px;
   display: flex;
@@ -102,11 +106,24 @@
   color: #fff;
   border: 2px solid transparent;
 }
+.product-details .button-wrapper a.cart-btn.form-control {
+  background: #3DA033;
+  color: #fff;
+  border: 2px solid transparent;
+  text-align: center;
+}
 .product-details .button-wrapper button i {
+  margin-right: 19px;
+}
+.product-details .button-wrapper a i {
   margin-right: 19px;
 }
 .product-details .button-wrapper button.cart-btn:hover {
   outline: 2px solid #1aac7a;
+}
+.product-details .button-wrapper a.cart-btn:hover {
+  outline: 2px solid #1aac7a;
+  text-align: center;
 }
 .button-wrapper button.wishlist-wrapper {
   background: #FFA33F;
@@ -284,10 +301,15 @@
   font-family: FontAwesome;
   display: inline-block;
   content: "\f005";
+  content: '\f006 ';
+  color: #5E5E5E;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 10px 10px 0 0;
 }
 
 .rating > .half:before {
-  content: "\f089";
+  /* content: "\f089"; */
   position: absolute;
 }
 
@@ -322,7 +344,9 @@
   font-size: 13px;
 }
 .rev-wrapper input::placeholder {
-  color: #b5c9ba;
+  color: #5E5E5E;
+  font-size: 12px;
+  font-family: 'gtwm';
 }
 .rev-wrapper textarea {
   border: 1px solid #c7c1c1;
@@ -332,7 +356,9 @@
   font-size: 13px;
 }
 .rev-wrapper textarea::placeholder {
-  color: #b5c9ba;
+  color: #5E5E5E;
+  font-size: 12px;
+  font-family: 'gtwm';
 }
 .rev-wrapper .form-check-input {
   margin-top: 7px;
@@ -420,7 +446,9 @@
   font-family: 'gtw';
   font-weight: 700;
 }
-
+.user-img-wrapper img {
+  border-radius: 50%;
+}
 .for-cr p {
   font-size: 14px;
   color: #707070;
@@ -455,3 +483,54 @@ h5.replied-user-name {
   font-family: 'gtw';
   font-weight: 600;
 }
+/* checkbox section start here */
+.prod_detail_check {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.prod_detail_check input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.prod_detail_check label {
+  position: relative;
+  cursor: pointer;
+}
+
+.prod_detail_check label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #619700;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 6px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+  background: #619700;
+}
+
+.prod_detail_check input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  width: 6px;
+  height: 14px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.prod_detail_check .form-check-label{
+  padding-left: 0;
+}
+/* checkbox section end here */

@@ -11,7 +11,7 @@
     <section class="shop_sec">
         <section class="section-head">
             <div class="head-page">
-                <h3 class="heading-page">Restaurent</h3>
+                <h3 class="heading-page">Restaurant</h3>
             </div>
         </section>
         <!-- section profile head End -->
@@ -271,12 +271,19 @@
                 </div>
                 <div class="pagination">
                     <nav aria-label="Page navigation example">
-                        <ul class="pagination">
+                        <ul class="paginations">
+                            <li class="active">01</li>
+                            <li>02</li>
+                            <li>03</li>
+                            <li>04</li>
+                            <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                        </ul>
+                        <!-- <ul class="pagination">
                             <li class="page-item">
-                                <!-- <a class="page-link" href="#" aria-label="Previous">
+                                <a class="page-link" href="#" aria-label="Previous">
                                     <span aria-hidden="true">&laquo;</span>
                                     <span class="sr-only">Previous</span>
-                                </a> -->
+                                </a>
                             </li>
                             <li class="page-item"><a class="page-link" href="#">1</a></li>
                             <li class="page-item"><a class="page-link" href="#">2</a></li>
@@ -287,7 +294,7 @@
                                     <span class="sr-only">Next</span>
                                 </a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </nav>
                 </div>
 

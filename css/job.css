@@ -3,6 +3,8 @@ section.shop_sec.job_section a.btn {
     background: #3DA033;
     color: #fff;
     padding: 0.5rem 2rem;
+    text-transform: uppercase;
+    font-size: 12px;
 }
 .job_content {
     /* display: flex; */
@@ -22,6 +24,10 @@ p.job_g_para {
 }
 .job_content p {
     margin: 0;
+}
+p.job_para {
+    font-family: 'gtwm';
+    font-size: 14px;
 }
 .job_content {
     padding: 2rem 1rem;
@@ -54,6 +60,13 @@ button.close {
 .modal-header {
     border-bottom: 0;
 }
+div#exampleModalCenter .modal-body {
+    padding: 10px 2rem;
+}
+div#exampleModalCenter .modal-body .form-control {
+    line-height: 2.25;
+    padding-left: 1.5rem;
+}
 p.aftj {
     font-weight: 500;
     text-align: center;
@@ -63,6 +76,7 @@ p.aftj {
     padding: 1rem;
     color: #000;
     font-size: 22px;
+    font-family: 'gtwm';
 }
 .avatar-edit label {
     position: relative;
@@ -80,6 +94,8 @@ p.aftj {
     border-radius: 0;
     margin-bottom: 10px;
     cursor: pointer;
+    margin: 13px 0;
+    font-size: 11px;
 }
 .avatar-edit input {
     display: none;

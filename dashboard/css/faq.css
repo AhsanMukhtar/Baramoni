@@ -1,0 +1,79 @@
+.question-and-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #becddc;
+}
+.profile-img-and-date-wrapper {
+  display: flex;
+  align-items: center;
+}
+.profile-img-and-date-wrapper img {
+  height: 41px;
+  width: 41px;
+  border: 1px solid #ebe0e0;
+  border-radius: 50%;
+  margin-right: 24px;
+}
+.profile-img-and-date-wrapper h6 {
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+}
+.question-and-btn-wrapper button.btns {
+  background: #707070;
+}
+.faq-detail-wrapper .faq-content-wrapper {
+  color: #425060;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.faq-detail-wrapper .faq-content-wrapper:last-child {
+  border-bottom: 1px solid #becddc;
+}
+.create-your-list .article-and-icons-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 19px;
+  border-top: 1px solid #becddc;
+}
+.article-and-icons-wrapper .icon-wrapper ul {
+  display: flex;
+  list-style: none;
+}
+.article-and-icons-wrapper .icon-wrapper ul li i {
+  margin: 0px 10px;
+}
+.article-and-icons-wrapper .article-wrapper {
+  display: flex;
+  align-items: center;
+}
+.article-and-icons-wrapper .article-wrapper button {
+  margin-left: 12px;
+  border: 0px;
+  background: #002349;
+  background: -webkit-linear-gradient(to right, #002349 0%, #1c436e 100%);
+  background: -moz-linear-gradient(to right, #002349 0%, #1c436e 100%);
+  background: linear-gradient(to right, #002349 0%, #1c436e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 19px;
+}
+.article-and-icons-wrapper .article-wrapper h5 {
+  margin-bottom: 0px;
+  color: #002349;
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: 500;
+}
+.article-and-icons-wrapper ul li i {
+  background: #002349;
+  background: -webkit-linear-gradient(to right, #002349 0%, #1c436e 100%);
+  background: -moz-linear-gradient(to right, #002349 0%, #1c436e 100%);
+  background: linear-gradient(to right, #002349 0%, #1c436e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+}

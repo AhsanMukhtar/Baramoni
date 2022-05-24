@@ -204,3 +204,12 @@
     margin-right: 10px;
   }
   /* Sidebar Css End Here */
+  section.shop_sec .week_slider p.product_name {
+    padding-right: 5rem;
+    font-family: 'gtwb';
+    font-size: 20px;
+    line-height: 1;
+}
+.week_slider .addtocartbtn {
+  padding-right: 2rem;
+}

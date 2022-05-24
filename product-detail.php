@@ -19,10 +19,10 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="product-detail-img">
-                            <img class="img-fluid" src="img/detail.png" alt="">
+                            <img class="img-fluid" src="img/detail1.png" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 mt-4">
                         <div class="product-name-wrapper">
                             <h4>Lorem Ipsum is simply dummy text</h4>
                         </div>
@@ -79,8 +79,8 @@
                             </div>
                         </div>
                         <div class="button-wrapper">
-                            <button onclick="location.href='cart.php'" class="cart-btn form-control"><i
-                                    class="fa fa-shopping-cart"></i> Add To Cart</button>
+                            <a href="productcart.php" onclick="location.href='cart.php'" class="cart-btn form-control"><i
+                                    class="fa fa-shopping-cart"></i> Add To Cart</a>
                             <button class="wishlist-wrapper form-control"><i class="fa fa-heart" aria-hidden="true"></i>Add To wishlist</button>
                         </div>
                         <div class="other-spec-wrapper">
@@ -132,7 +132,7 @@
 
                     <div class="col-md-4">
                         <div class="sports-pic">
-                            <img class="img-fluid" src="img/sports.png" alt="">
+                            <img class="img-fluid" src="img/detail2.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -371,7 +371,7 @@
                                             <div class="form-group row">
                                                 <div class="col-lg-8">
 
-                                                    <div class="form-check">
+                                                    <div class="form-check prod_detail_check">
                                                         <input class="form-check-input" type="checkbox" value=""
                                                             id="defaultCheck1">
                                                         <label class="form-check-label" for="defaultCheck1">
