@@ -57,7 +57,7 @@
                         </div>
                         <hr class="line">
                         <div class="b_user_p2">
-                            <a href="productcart.php"><img class="img-fluid" src="img/icon_cart.png" alt=""></a>
+                            <a href="productcart.php"><img class="img-fluid" src="img/cart_icon.png" alt=""></a>
                             <div class="head_account">
                                 <a href="productcart.php"><span class="c_name">Your Cart</span></a>
                                 <p class="">$ 49.00</p>

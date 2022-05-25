@@ -79,9 +79,10 @@
                             </div>
                         </div>
                         <div class="button-wrapper">
-                            <a href="productcart.php" onclick="location.href='cart.php'" class="cart-btn form-control"><i
-                                    class="fa fa-shopping-cart"></i> Add To Cart</a>
-                            <button class="wishlist-wrapper form-control"><i class="fa fa-heart" aria-hidden="true"></i>Add To wishlist</button>
+                            <a href="productcart.php" onclick="location.href='cart.php'"
+                                class="cart-btn form-control"><i class="fa fa-shopping-cart"></i> Add To Cart</a>
+                            <button class="wishlist-wrapper form-control"><i class="fa fa-heart"
+                                    aria-hidden="true"></i>Add To wishlist</button>
                         </div>
                         <div class="other-spec-wrapper">
                             <h5>Share Now :</h5>
@@ -91,7 +92,7 @@
                                 <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                 <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 
-                               
+
                             </ul>
                         </div>
                     </div>
@@ -133,6 +134,16 @@
                     <div class="col-md-4">
                         <div class="sports-pic">
                             <img class="img-fluid" src="img/detail2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="product2">
+                            <h5>Warnings and additional information</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolor</p>
                         </div>
                     </div>
                 </div>

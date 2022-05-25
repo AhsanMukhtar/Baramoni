@@ -5,9 +5,9 @@
 }
 
 .all-box h5 {
-    font-size: 14px;
+    font-size: 12px;
     color: #619700;
-    font-family: 'gtw';
+    font-family: 'gtwm';
     font-weight: 700;
     margin: 0;
     margin-top: 10px;
@@ -15,9 +15,9 @@
 }
 
 .all-box h3 {
-    font-size: 16px;
+    font-size: 14px;
     color: #274D5E;
-    font-family: 'gtw';
+    font-family: 'gtwm';
     font-weight: 700;
     margin: 0;
 }
@@ -30,11 +30,14 @@
 
 .stars {
     display: flex;
+    line-height: 1;
+    align-items: center;
 }
 
-.stars ul li a i {
+.all-box .stars ul li a i {
     color: #EBBC00;
     padding: 0px 2px;
+    font-size: 12px;
 }
 
 .showing-result h5 {
@@ -73,10 +76,11 @@ select#cars {
 }
 
 .stars p {
-    font-size: 14px;
+    font-size: 12px;
     color: #274D5E;
     font-family: 'gtw';
     font-weight: 500;
+    margin-left: 10px;
 }
 section.res-sec ul.paginations {margin: 50px 0 0;
     padding: 0;
@@ -101,5 +105,18 @@ section.res-sec ul.paginations {margin: 50px 0 0;
     font-weight: bold;}
     section.res-sec ul.paginations i.fa.fa-angle-right {
         font-size: 23px;
+    }
+    .all-box figure{
+        position: relative;
+    }
+    span.per_off{
+       position: absolute;
+       top: 15px;
+       left: 1px;
+       background: #619700;
+       color: #fff;
+    padding: 10px 20px;
+    font-size: 11px;
+
     }
 /* End of res section  */

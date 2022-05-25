@@ -10,6 +10,7 @@ section.productCart {
 }
 section.productCart h5{
     font-family: 'gm';
+    font-size: 16px;
 }
 .img-tls {
     display: none;
@@ -42,7 +43,7 @@ figure {
 .productCart .tableDv {
     background: #fff;
     margin: 0 10px;
-    /* padding: 35px 30px; */
+    padding: 25px 30px;
     border-radius: 20px;
     box-shadow: 0px 0px 5px 1px rgb(0 0 0 / 20%);
     -webkit-box-shadow: 0px 0px 5px 1px rgb(0 0 0 / 20%);
@@ -57,6 +58,7 @@ figure {
 }
 .productCart .products .productDetail .product-detail .img-box {
     min-width: 140px;
+    padding-left: 20px;
 }
 .productCart table tr.topbar {
     border-bottom: 1px solid #C5C5C5;
@@ -67,8 +69,12 @@ figure {
     line-height: 5;
 }
 .productCart .products {
-    height: 130px;
+    height: 110px;
     border-bottom: 1px solid #C5C5C5;
+}
+.productCart .products .productDetail .product-detail p.font-13 {
+    font-size: 13px;
+    margin-bottom: 0;
 }
 .productCart .tableDv th.productDetail {
     width: 40%;
@@ -95,6 +101,7 @@ figure {
 }
 .productCart .tableDv .addcart {
     width: 25%;
+    padding-right: 30px;
 }
 .productCart .tableDv .addcart .ActionBtn {
     display: flex;
@@ -106,7 +113,7 @@ figure {
 }
 .productCart .tableDv .addcart .ActionBtn .cartBtn p {
     margin-bottom: 0;
-    font-size: 17px;
+    font-size: 15px;
 }
 .productCart .tableDv .addcart .ActionBtn .cartBtn p a {
     color: #e7adc4;
@@ -120,6 +127,7 @@ figure {
 }
 .productCart .button-group {
     margin-top: 30px;
+    padding-left: 3rem;
 }
 .productCart .proceed {
     width: 100%;

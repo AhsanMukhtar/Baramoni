@@ -29,15 +29,15 @@
                         </select>
                     </div>
 
-                    <!-- <div class="showing-result">
+                    <div class="showing-result">
                         <h5>Showing 1–12 of 40 results</h5>
-                    </div> -->
+                    </div>
                 </div>
                 <div class="row">
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/tra1.png" alt="">
+                            <figure><img class="img-fluid" src="img/tra1.png" alt=""></figure>
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -56,7 +56,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/tra2.png" alt="">
+                            <figure><img class="img-fluid" src="img/tra2.png" alt=""></figure>
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -75,7 +75,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/tra3.png" alt="">
+                            <figure><img class="img-fluid" src="img/tra3.png" alt=""></figure>
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -94,7 +94,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/tra4.png" alt="">
+                            <figure><img class="img-fluid" src="img/tra4.png" alt=""></figure>
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -116,7 +116,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/tra5.png" alt="">
+                            <figure><img class="img-fluid" src="img/tra5.png" alt=""></figure>
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -135,7 +135,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/tra6.png" alt="">
+                            <figure><img class="img-fluid" src="img/tra6.png" alt=""></figure>
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -154,7 +154,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/tra7.png" alt="">
+                            <figure><img class="img-fluid" src="img/tra7.png" alt=""></figure>
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -173,7 +173,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/tra8.png" alt="">
+                            <figure><img class="img-fluid" src="img/tra8.png" alt=""></figure>
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -194,7 +194,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/tra9.png" alt="">
+                            <figure><img class="img-fluid" src="img/tra9.png" alt=""></figure>
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -213,7 +213,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/tra10.png" alt="">
+                            <figure><img class="img-fluid" src="img/tra10.png" alt=""></figure>
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -232,7 +232,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/tra11.png" alt="">
+                            <figure><img class="img-fluid" src="img/tra11.png" alt=""></figure>
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
@@ -251,7 +251,7 @@
 
                     <div class="col-md-3">
                         <div class="all-box">
-                            <img class="img-fluid" src="img/tra12.png" alt="">
+                            <figure><img class="img-fluid" src="img/tra12.png" alt=""></figure>
                             <h5>Lorem ipsum</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">

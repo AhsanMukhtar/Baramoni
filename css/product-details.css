@@ -13,27 +13,31 @@
 .review-wrapper ul li i {
   color: #ebbc00;
   margin: 0px 5px 0px 0px;
+  font-size: 13px;
 }
 .review-wrapper ul li span {
   color: #67828e;
   font-family: "GT Walsheim Pro Regular";
   font-size: 14px;
+  margin-left: 18px;
 }
 .product-name-wrapper h4 {
   color: #005739;
-  font-weight: bold;
+  font-family: 'gtwb';
+    font-size: 23px;
 }
 .availability-wrapper span {
   font-family: "GT Walsheim Pro regular";
   font-weight: 500;
   color: #50625c;
+  font-size: 14px;
 }
 .availability-wrapper span.InStock {
   color: #3cb88e;
 }
 .product-des-wrapper p {
   color: #67828e;
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Poppins";
   font-weight: 500;
 }
@@ -48,6 +52,11 @@
   font-family: "GT Walsheim Pro regular";
   color: #50625c;
 }
+.product-spec-list-wrapper ul li {
+  font-size: 14px;
+}
+
+
 .product-spec-list-wrapper ul li::marker {
   color: #1aac7a;
   font-size: 23px;
@@ -63,12 +72,15 @@
 }
 .counter-and-price-wrapper span.sales-price {
   color: #3da033;
+  font-family: 'gtwb';
+    font-size: 35px;
 }
 .counter-and-price-wrapper strike.regular-price {
   color: #8398a1;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 0px;
+  margin-left: 10px;
 }
 .number input[type="text"] {
   width: 58px;
@@ -111,6 +123,7 @@
   color: #fff;
   border: 2px solid transparent;
   text-align: center;
+  margin-top: 1.5rem;
 }
 .product-details .button-wrapper button i {
   margin-right: 19px;
@@ -263,6 +276,10 @@
 .rating-wrapper ul li i {
   margin: 0px 2px;
   color: #febf00;
+  font-size: 12px;
+}
+.user-content-wrapper .date-and-starts-wrapper {
+  line-height: 0;
 }
 .product-details h5.replied-user-name {
   color: #0c0202;
@@ -277,12 +294,15 @@
   font-weight: 400;
 }
 .blog-replies-wrapper p.comment-content {
-  color: #5e5e5e;
+  color: #000;
   font-family: "GT Walsheim Pro regular";
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 500;
 }
-
+.date-and-starts-wrapper h6.comment-date {
+  font-size: 12px;
+  color: #818181;
+}
 /****** Style Star Rating Widget *****/
 .rating {
   border: none;
@@ -369,7 +389,9 @@
   font-family: "GT Walsheim Pro regular";
   font-size: 14px;
 }
-
+.rev-wrapper button.btn {
+  padding: 10px 45px;
+}
 .product-img-slider-wrapper {
   margin: 30px 0px;
 }
@@ -434,14 +456,14 @@
 }
 
 .product-info p {
-  font-size: 11px;
+  font-size: 13px;
   color: #707070;
   font-family: 'gtw';
-  line-height: 37px;
+  line-height: 24px;
 }
 
 .for-cr h4 {
-  font-size: 26px;
+  font-size: 22px;
   color: #013307;
   font-family: 'gtw';
   font-weight: 700;
@@ -450,12 +472,12 @@
   border-radius: 50%;
 }
 .for-cr p {
-  font-size: 14px;
+  font-size: 13px;
   color: #707070;
   font-family: 'gtw';
   font-weight: lin;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 24px;
 }
 
 h5.replied-user-name {
@@ -464,6 +486,7 @@ h5.replied-user-name {
   font-family: 'gtw';
   font-weight: 400;
   text-transform: capitalize;
+  margin-bottom: 5px;
 }
 
 .other-spec-wrapper ul {
