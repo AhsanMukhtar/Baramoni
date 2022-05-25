@@ -224,7 +224,7 @@ figure {
     padding: 13px 75px;
     color: #fff;
     font-weight: 100;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 .productCart .proceed h6 {
     font-size: 12px;
