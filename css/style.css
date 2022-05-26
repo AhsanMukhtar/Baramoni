@@ -257,10 +257,21 @@ p.para1 {
 }
 #header-top .heading_top i {
   font-size: 13px;
+  color: #fff;
+}
+#header-top .heading_top i:hover {
+  color: #f78914;
+}
+#header-top .heading_top a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 #header-top .heading_top span {
   text-transform: capitalize;
   font-size: 14px;
+  margin-left: 10px;
+  color: #fff;
 }
 #header-top .heading_top .input-group {
   align-items: center;
@@ -558,7 +569,7 @@ p.green_para2 {
 }
 .week_img_content {
   margin: auto;
-  padding: 0 2rem;
+  padding: 1rem 2rem;
   padding-left: 0;
 }
 .week_img_content small p {
@@ -841,12 +852,18 @@ footer .footer_content ul.social_links li {
   /* background: #08517f; */
   width: 40px;
   text-align: center;
-  line-height: 40px;
+  line-height: 36px;
   /* margin-right: 10px; */
+  border: 2px solid #7a7c81;
+  border-radius: 50%;
 }
+
 footer .footer_content ul.social_links li a {
   color: #fff;
 }
+/* footer .footer_content ul.social_links li a i:hover {
+  color: #619700;
+} */
 footer .footer_content .head h5 {
   font-size: 18px;
     color: #fff;
@@ -884,6 +901,10 @@ footer .footer_content p:after {
 footer .footer_content ul.social_links .icon_instagram {
   width: 15px;
   vertical-align: baseline;
+  line-height: 36px;
+}
+footer .footer_content ul.social_links li:hover {
+  background: #7a7c81;
 }
 footer .footer_content ul.footer_menus li a {
   color: #fff;

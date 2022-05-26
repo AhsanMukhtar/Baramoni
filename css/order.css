@@ -195,9 +195,10 @@ p.hoseusa {
   .order-table-wrapper tr.row1 th {
     padding: 23px 20px;
     text-align: center;
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: 100;
+    font-size: 15px;
     color: #274d5e;
+    font-family: 'gtwm';
   }
   .order-table-wrapper tr.row2 td {
     padding: 18px 20px;
@@ -216,7 +217,7 @@ p.hoseusa {
   .order-table-wrapper .row2 td {
     color: #274d5e;
     font-family: "GT Walsheim Pro Regular";
-    font-size: 14px;
+    font-size: 13px;
   }
    .order-table-wrapper td.paid {
     color: #00bc26;
@@ -232,7 +233,7 @@ p.hoseusa {
     font-family: "gtwm";
     /* font-weight: bold; */
     text-decoration: underline;
-    font-size: 14px;
+    font-size: 12px;
   }
   .pagination-wrapper a.page-link {
     display: flex;
@@ -323,12 +324,12 @@ p.hoseusa {
     font-size: 13px;
     font-family: "GT Walsheim Pro Regular";
     color: #274d5e;
-    margin-top: 28px;
+    /* margin-top: 28px; */
     font-weight: 400;
   }
   .modal-title {
     color: #274d5e;
-    font-family: "GT Walsheim Pro black";
+    font-family: "gtwm";
     font-size: 27px;
     font-weight: 500;
   }
@@ -367,30 +368,38 @@ p.hoseusa {
   h6.product-size {
     color: #1f2c35 !important;
     font-weight: 400;
-    font-size: 17px !important;
+    font-size: 14px !important;
+    margin-bottom: 0;
+    font-family: 'gtwm';
   }
+  h6.product-size span {
+    margin-left: 15px;
+    font-size: 12px;
+}
   h5.product-name {
-    font-size: 16px;
+    font-size: 14px;
     color: #274d5e;
-    font-family: "GT Walsheim Pro black";
+    font-family: "gtwm";
     font-weight: 500;
+    margin-bottom: 0;
   }
   .product-deatail-wrapper h4.stocks {
-    font-size: 16px;
-    font-family: "GT Walsheim Pro black";
+    /* font-size: 16px; */
+    font-family: "gtwm";
     font-size: 14px;
     color: #274d5e;
     font-weight: 400;
+    line-height: 2;
   }
   .product-deatail-wrapper small {
     color: #8a9397;
-    font-family: "GT Walsheim Pro black";
+    font-family: "gtw";
     font-size: 10px;
   }
   .product-deatail-wrapper {
     border: 1px solid #d7e6db;
     border-radius: 10px;
-    padding: 7px;
+    padding: 20px 0;
   }
   .product_img {
     text-align: center;
@@ -399,9 +408,9 @@ p.hoseusa {
     margin: 0px;
   }
   .product_img figure img {
-    background: #1aac7a;
+    background: #619700;
     padding: 7px;
-    border-radius: 10px;
+    border-radius: 5px;
   }
   .product-deatail-wrapper {
     margin: 20px auto !important;
@@ -415,9 +424,10 @@ p.hoseusa {
     display: flex;
     justify-content: space-between;
     color: #274d5e !important;
-    font-size: 17px !important;
+    font-size: 14px !important;
     font-weight: 500;
     line-height: 2.5;
+    font-family: 'gtwm';
   }
   .order-details-wrapper {
     padding: 0px 40px;

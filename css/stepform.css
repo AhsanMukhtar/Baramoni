@@ -26,7 +26,7 @@ figure {
   width: 70px;
   height: 11px;
   top: 35px;
-  left: -9px;
+  left: -15px;
   border-radius: 5px;
   z-index: 2;
 }
@@ -207,14 +207,15 @@ span.round-tab i{
   background: #619700;
   border-color: #619700;
   color: #fff;
+  font-family: 'gm';
 }
 .checkout_page_sec .addressDetail {
   background: #fff;
   padding: 30px 30px;
   border-radius: 20px;
-  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);
--webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);
--moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 5px 5px rgb(0 0 0 / 4%);
+-webkit-box-shadow: 0px 0px 5px 5px rgb(0 0 0 / 4%);
+-moz-box-shadow: 0px 0px 5px 5px rgb(0 0 0 / 4%);
 }
 .checkout_page_sec .addressDetail .head {
   padding-bottom: 20px;
@@ -236,6 +237,10 @@ span.round-tab i{
   border: 1px solid #70707063;
   color: #24463891;
   outline: none;
+  appearance: none;
+  background: url(../img/Chevron_Right_1.png) no-repeat;
+  background-position-x: 95%;
+    background-position-y: center;
 }
 .form-group textarea {
   border-radius: 20px !important;
@@ -261,9 +266,9 @@ span.round-tab i{
   background: #fff;
   padding: 30px 30px;
   border-radius: 20px;
-  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);
--webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);
--moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.04);
+-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.04);
+-moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.04);
 }
 .checkout_page_sec .paymentInfo .head {
   padding-bottom: 20px;
@@ -310,9 +315,9 @@ span.round-tab i{
   background: #fff;
   padding: 60px 50px;
   border-radius: 15px;
-  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);
--webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);
--moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.04);
+-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.04);
+-moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.04);
 }
 .checkout_page_sec .productsummary-info .topBaR .headd h4 {
   margin-bottom: 0;
@@ -401,16 +406,16 @@ span.round-tab i{
   text-align: center;
 }
 .checkout_page_sec .OrderSummary .headingg h3 {
-  font-family: 'gtw';
+  font-family: 'gm';
   font-size: 25px;
 }
 .checkout_page_sec .OrderSummary {
   background: #fff;
   padding: 25px 40px;
   border-radius: 15px;
-  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);
--webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);
--moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.04);
+-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.04);
+-moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.04);
 }
 .checkout_page_sec .OrderSummary .order-flex {
   display: flex;

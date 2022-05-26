@@ -10,13 +10,12 @@
                 <div class="col-lg-4">
                     <div>
                         <div class="heading_top">
-                            <i class="fa fa-commenting" aria-hidden="true"></i>
-                            <span>message</span>
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-
+                            <a href="#"><i class="fa fa-commenting" aria-hidden="true"></i>
+                                <span>message</span></a>
+                            <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                             <div class="input-group">
                                 <i class="fa fa-flag" aria-hidden="true"></i>
                                 <select class="custom-select" id="inputGroupSelect01">

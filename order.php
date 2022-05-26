@@ -128,7 +128,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="model-header pt-5">
-                    <h5 class="modal-title" id="exampleModalLongTitle">OrderNo</h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Order Details</h5>
                     <h6>Order #1084598423154 was placed on 30 March 2022</h6>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i></span>
@@ -143,9 +143,9 @@
                         </div>
                         <div class="product-content">
                             <h5 class="product-name">Lorem ipsum dolor sit</h5>
-                            <h6 class="product-size">$ 49.00 <span>Category : <small>(shop by benefit)</small></span>
+                            <h6 class="product-size">$ 49.00 <span>Category : <small>Lorem ipsom</small></span>
                             </h6>
-                            <h4 class="stocks">Quantity : <span style="color:#1aac7a">(02)</span></h4>
+                            <h4 class="stocks">Quantity : <span style="color:#619700">(02)</span></h4>
                         </div>
                     </div>
                     <div class="product-deatail-wrapper my-3">
@@ -156,9 +156,9 @@
                         </div>
                         <div class="product-content">
                             <h5 class="product-name">Lorem ipsum dolor sit</h5>
-                            <h6 class="product-size">$ 49.00 <span>Category : <small>(shop by benefit)</small></span>
+                            <h6 class="product-size">$ 49.00 <span>Category : <small>Lorem ipsom</small></span>
                             </h6>
-                            <h4 class="stocks">Quantity : <span style="color:#1aac7a">(02)</span></h4>
+                            <h4 class="stocks">Quantity : <span style="color:#619700">(02)</span></h4>
                         </div>
                     </div>
                     <div class="product-deatail-wrapper my-3">
@@ -169,9 +169,9 @@
                         </div>
                         <div class="product-content">
                             <h5 class="product-name">Lorem ipsum dolor sit</h5>
-                            <h6 class="product-size">$ 49.00 <span>Category : <small>(shop by benefit)</small></span>
+                            <h6 class="product-size">$ 49.00 <span>Category : <small>Lorem ipsom</small></span>
                             </h6>
-                            <h4 class="stocks">Quantity : <span style="color:#1aac7a">(02)</span></h4>
+                            <h4 class="stocks">Quantity : <span style="color:#619700">(02)</span></h4>
                         </div>
                     </div>
                     <div class="order-details">

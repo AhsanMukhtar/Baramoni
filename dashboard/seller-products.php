@@ -99,7 +99,7 @@
                                 <tr class="topbar">
                                     <th scope="col" class="Status">Status</th>
                                     <th scope="col" class="billingname">Product Name</th>
-                                    <th scope="col" class="amount">SKU number</th>
+                                    <!-- <th scope="col" class="amount">SKU number</th> -->
                                     <th scope="col" class="Image">Image</th>
                                     <th scope="col" class="shipmentstatus">Date</th>
                                     <th scope="col" class="Price">Amount</th>
@@ -113,7 +113,7 @@
                                 <tr>
                                     <td class="orderid">Active</td>
                                     <td class="billingname">Lorem ipsum dolor </td>
-                                    <td class="amount">CA12345</td>
+                                    <!-- <td class="amount">CA12345</td> -->
                                     <td class="items">
                                         <img src="img/pro-img.png" class="pro-table-img" alt="">
                                     </td>
@@ -137,7 +137,7 @@
                                 <tr>
                                     <td class="orderid">Active</td>
                                     <td class="billingname">Lorem ipsum dolor </td>
-                                    <td class="amount">CA12345</td>
+                                    <!-- <td class="amount">CA12345</td> -->
                                     <td class="items">
                                         <img src="img/pro-img.png" class="pro-table-img" alt="">
                                     </td>
@@ -160,7 +160,7 @@
                                 <tr>
                                     <td class="orderid">Active</td>
                                     <td class="billingname">Lorem ipsum dolor </td>
-                                    <td class="amount">CA12345</td>
+                                    <!-- <td class="amount">CA12345</td> -->
                                     <td class="items">
                                         <img src="img/pro-img.png" class="pro-table-img" alt="">
                                     </td>
@@ -183,7 +183,7 @@
                                 <tr>
                                     <td class="orderid">Active</td>
                                     <td class="billingname">Lorem ipsum dolor </td>
-                                    <td class="amount">CA12345</td>
+                                    <!-- <td class="amount">CA12345</td> -->
                                     <td class="items">
                                         <img src="img/pro-img.png" class="pro-table-img" alt="">
                                     </td>

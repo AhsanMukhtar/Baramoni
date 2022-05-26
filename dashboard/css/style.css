@@ -206,18 +206,19 @@ nav#sidebar .pro-wrapper {
   flex-wrap: nowrap;
   justify-content: flex-start;
   flex-direction: row;
+  padding: 1rem 1rem 1rem 0.7rem;
 }
 .navbar-expand .navbar-collapse {
   display: flex !important;
   flex: 3;
-  padding-right: 1.6rem;
+  /* padding-right: 1.6rem; */
 }
 nav.navbar .search-wrapper .form-group {
   display: flex;
 }
 nav.navbar .search-wrapper {
   flex: 6;
-  padding-left: 1.6rem;
+  /* padding-left: 1.6rem; */
 }
 .search-wrapper .form-control {
   padding: 10px 20px;

@@ -108,7 +108,7 @@
                             <div class="col-md-5">
                                 <div class="OrderSummary">
                                     <div class="headingg">
-                                        <h3 class="font-25 pb-3">Order Summery</h3>
+                                        <h3 class="font-25 pb-3">Order Summary</h3>
                                     </div>
                                     <div class="order_info">
                                         <div class="itemTotal order-flex">
@@ -156,7 +156,7 @@
                             <div class="col-md-7">
                                 <div class="paymentInfo">
                                     <div class="head">
-                                        <h4 class="font-20 fw-600">Enter Your Payment Details</h4>
+                                        <h4 class="font-20 fw-600 text-center">Enter Your Address Details</h4>
                                     </div>
                                     <form>
                                         <div class="row">
@@ -397,7 +397,7 @@
                             <div class="col-md-5">
                                 <div class="OrderSummary">
                                     <div class="headingg">
-                                        <h3 class="font-25 pb-3">Order Summery</h3>
+                                        <h3 class="font-25 pb-3">Order Summary</h3>
                                     </div>
                                     <div class="order_info">
                                         <div class="itemTotal order-flex">
