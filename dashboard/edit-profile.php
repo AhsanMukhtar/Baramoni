@@ -2,6 +2,7 @@
 <!-- css file starts here -->
 <link rel="stylesheet" href="css/edit-profile.css">
 <!-- css file starts here -->
+
 <div class="wrapper">
     <?php include 'inc/sidebar.php' ?>
     <div class="main">
@@ -70,7 +71,7 @@
                                     </div>
                                     <div class="form-group row">
                                         <div class="col-lg-6">
-                                            <div class="custom-control custom-checkbox">
+                                            <div class="custom-control custom_checkbox">
                                                 <input type="checkbox" class="custom-control-input" id="customCheck1">
                                                 <label class="custom-control-label" for="customCheck1">Save my name, email, and website in this browser for the next time I comment.</label>
                                             </div>

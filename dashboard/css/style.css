@@ -13,6 +13,22 @@ label,
 input {
   font-family: "Poppins";
 }
+@font-face {
+  font-family: 'gtw';
+  src: url(../../fonts/GTWalsheimPro-Regular.ttf);
+}
+@font-face {
+  font-family: 'gtwb';
+  src: url(../../fonts/GTWalsheimPro-Bold.ttf);
+}
+@font-face {
+  font-family: 'gm';
+  src: url(../../fonts/GothamMedium.ttf);
+}
+@font-face {
+  font-family: 'gtwm';
+  src: url(../../fonts/GTWalsheimPro-Medium.ttf);
+}
 html body select {
   background-image: url(../img/down.svg) !important;
   background-repeat: no-repeat;
@@ -217,7 +233,7 @@ nav.navbar .search-wrapper .form-group {
   display: flex;
 }
 nav.navbar .search-wrapper {
-  flex: 6;
+  flex: 9;
   /* padding-left: 1.6rem; */
 }
 .search-wrapper .form-control {
@@ -229,6 +245,7 @@ nav.navbar .search-wrapper {
   border: 0px;
   box-shadow: 0px 0px 4px 6px #dfe7df47;
   border: 1px solid #dbd7d7;
+  box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 20%);
 }
 .search-wrapper button {
   position: absolute;

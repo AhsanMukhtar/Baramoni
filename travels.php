@@ -38,7 +38,7 @@
                     <div class="col-md-3">
                         <div class="all-box">
                             <figure><img class="img-fluid" src="img/tra1.png" alt=""></figure>
-                            <h5>Lorem ipsum</h5>
+                            <h5>7 days</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
                                 <ul>
@@ -57,7 +57,7 @@
                     <div class="col-md-3">
                         <div class="all-box">
                             <figure><img class="img-fluid" src="img/tra2.png" alt=""></figure>
-                            <h5>Lorem ipsum</h5>
+                            <h5>1 month</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
                                 <ul>
@@ -76,7 +76,7 @@
                     <div class="col-md-3">
                         <div class="all-box">
                             <figure><img class="img-fluid" src="img/tra3.png" alt=""></figure>
-                            <h5>Lorem ipsum</h5>
+                            <h5>15 days</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
                                 <ul>
@@ -95,7 +95,7 @@
                     <div class="col-md-3">
                         <div class="all-box">
                             <figure><img class="img-fluid" src="img/tra4.png" alt=""></figure>
-                            <h5>Lorem ipsum</h5>
+                            <h5>3 weeks</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
                                 <ul>
@@ -117,7 +117,7 @@
                     <div class="col-md-3">
                         <div class="all-box">
                             <figure><img class="img-fluid" src="img/tra5.png" alt=""></figure>
-                            <h5>Lorem ipsum</h5>
+                            <h5>7 days</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
                                 <ul>
@@ -136,7 +136,7 @@
                     <div class="col-md-3">
                         <div class="all-box">
                             <figure><img class="img-fluid" src="img/tra6.png" alt=""></figure>
-                            <h5>Lorem ipsum</h5>
+                            <h5>1 month</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
                                 <ul>
@@ -155,7 +155,7 @@
                     <div class="col-md-3">
                         <div class="all-box">
                             <figure><img class="img-fluid" src="img/tra7.png" alt=""></figure>
-                            <h5>Lorem ipsum</h5>
+                            <h5>15 days</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
                                 <ul>
@@ -174,7 +174,7 @@
                     <div class="col-md-3">
                         <div class="all-box">
                             <figure><img class="img-fluid" src="img/tra8.png" alt=""></figure>
-                            <h5>Lorem ipsum</h5>
+                            <h5>3 weeks</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
                                 <ul>
@@ -195,7 +195,7 @@
                     <div class="col-md-3">
                         <div class="all-box">
                             <figure><img class="img-fluid" src="img/tra9.png" alt=""></figure>
-                            <h5>Lorem ipsum</h5>
+                            <h5>7 days</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
                                 <ul>
@@ -214,7 +214,7 @@
                     <div class="col-md-3">
                         <div class="all-box">
                             <figure><img class="img-fluid" src="img/tra10.png" alt=""></figure>
-                            <h5>Lorem ipsum</h5>
+                            <h5>1 month</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
                                 <ul>
@@ -233,7 +233,7 @@
                     <div class="col-md-3">
                         <div class="all-box">
                             <figure><img class="img-fluid" src="img/tra11.png" alt=""></figure>
-                            <h5>Lorem ipsum</h5>
+                            <h5>15 days</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
                                 <ul>
@@ -252,7 +252,7 @@
                     <div class="col-md-3">
                         <div class="all-box">
                             <figure><img class="img-fluid" src="img/tra12.png" alt=""></figure>
-                            <h5>Lorem ipsum</h5>
+                            <h5>3 weeks</h5>
                             <h3>Lorem Ipsum is simply dummy text</h3>
                             <div class="stars">
                                 <ul>

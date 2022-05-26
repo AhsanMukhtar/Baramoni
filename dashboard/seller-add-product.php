@@ -3,7 +3,11 @@
 <!-- css file -->
 <link rel="stylesheet" href="css/seller-add-product.css">
 <!-- css file -->
-
+<style>
+.navbar-bg {
+    padding: 1rem 0rem 1rem 0rem;
+}
+    </style>
 <!-- seller dashboard-wrapper starts here -->
 <section class="dashboard">
     <div class="container-fluid">

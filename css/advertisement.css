@@ -14,7 +14,7 @@
     padding: 0 1rem 10px;
   }
   .filter_Dv .filter_all {
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
   }
   .categoryDv ul.categories {
       padding: 0 1rem 10px;
@@ -73,6 +73,8 @@
     position: relative;
     padding-left: 1rem;
     border-bottom: 1px solid #1D5700;
+    font-family: 'gtwm';
+    font-weight: unset;
   }
   .shop-sidebar .variation-attr .fhead h5:before {
     content: '';

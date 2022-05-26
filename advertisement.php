@@ -25,23 +25,23 @@
 
                         <div class="categoryDv variation-attr">
                             <div class="fhead">
-                                <h5>Categories</h5>
+                                <h5>Filter Add By categories</h5>
                             </div>
                             <ul class="categories">
                                 <div class="alltxt">
                                     <span class="dot"></span>
                                     <p class="green_para">All</p>
                                 </div>
-                                <li><a href="#"><span class="property">Jobs</span> <span class="value"></span></a>
+                                <li><a href="#"><span class="property">Lorem ipsum</span> <span class="value"></span></a>
                                 </li>
-                                <li><a href="#"><span class="property">Restaurants </span> <span
+                                <li><a href="#"><span class="property">Lorem ipsum </span> <span
                                             class="value"></span></a>
                                 </li>
-                                <li><a href="#"><span class="property">Events </span> <span class="value"></span></a>
+                                <li><a href="#"><span class="property">Lorem ipsum </span> <span class="value"></span></a>
                                 </li>
-                                <li><a href="#"><span class="property">Travels </span> <span class="value"></span></a>
+                                <li><a href="#"><span class="property">Lorem ipsum </span> <span class="value"></span></a>
                                 </li>
-                                <li><a href="#"><span class="property">Buy & Sell </span> <span
+                                <li><a href="#"><span class="property">Lorem ipsum </span> <span
                                             class="value"></span></a>
                                 </li>
                             </ul>

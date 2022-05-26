@@ -109,8 +109,8 @@
 .product-details .button-wrapper button {
   margin: 10px 0px;
   border-radius: 4px;
-  padding: 14px 0px;
-  font-family: "GT Walsheim Pro regular";
+  padding: .5rem .75rem;
+  font-family: "gtw";
   transition: all 0.4s ease-in-out;
 }
 .product-details .button-wrapper button.cart-btn.form-control {
@@ -124,6 +124,7 @@
   border: 2px solid transparent;
   text-align: center;
   margin-top: 1.5rem;
+  font-size: 14px;
 }
 .product-details .button-wrapper button i {
   margin-right: 19px;
@@ -132,17 +133,17 @@
   margin-right: 19px;
 }
 .product-details .button-wrapper button.cart-btn:hover {
-  outline: 2px solid #1aac7a;
+  /* outline: 2px solid #1aac7a; */
 }
 .product-details .button-wrapper a.cart-btn:hover {
-  outline: 2px solid #1aac7a;
+  /* outline: 2px solid #1aac7a; */
   text-align: center;
 }
 .button-wrapper button.wishlist-wrapper {
   background: #FFA33F;
   color: #ffffff;
-  font-family: "GT Walsheim Pro regular";
-  font-size: 16px;
+  font-family: "gtw";
+  font-size: 14px;
   font-weight: 500;
   border: 2px solid transparent;
 }

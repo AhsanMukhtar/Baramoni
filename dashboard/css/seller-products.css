@@ -129,13 +129,13 @@
 }
 .sellers_orders .paginations_results ul.paginations li.arrow {
   border: 1px solid #ababab;
-  padding: 5px 15px;
+  padding: 1px 9px;
   border-radius: 4px;
   margin: 0 5px;
 }
 .sellers_orders .paginations_results ul.paginations li.arrow i {
   color: #07a8c4;
-  font-size: 25px;
+  font-size: 14px;
 }
 .sellers_orders .paginations_results ul.paginations li.pagi {
   padding: 0 5px;
@@ -221,6 +221,23 @@ div#exampleModalCenter button.close {
   top: 4px;
   z-index: 99999;
   cursor: pointer;
+}
+.sellers_orders th {
+  text-decoration: underline;
+}
+
+.sellers_orders tr td {
+  text-decoration: underline;
+}
+.sellers_orders .table-resposnive td.Detailsu button.btn.details-btn {
+  background: url(../../img/iconred_down.png) no-repeat;
+  z-index: 9999999;
+  background-position-x: right;
+  padding-right: 15px;
+  background-position-y: center;
+}
+.sellers_orders .table-resposnive td.orderid.inactive {
+  color: #F37070;
 }
 div#exampleModalCenter .modal-body {
   padding: 48px;
@@ -353,4 +370,5 @@ div#exampleModalCenter button.pay-now {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  margin-top: 3rem;
 }

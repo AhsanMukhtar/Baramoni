@@ -46,129 +46,54 @@
 
                         <div class="categoryDv variation-attr">
                             <div class="fhead">
-                                <h5>Categories</h5>
+                                <h5>Jobs Type</h5>
                             </div>
                             <ul class="categories">
                                 <div class="alltxt">
                                     <span class="dot"></span>
                                     <p class="green_para">All</p>
                                 </div>
-                                <li><a href="#"><span class="property">Jobs</span> <span class="value"></span></a>
-                                </li>
-                                <li><a href="#"><span class="property">Restaurants </span> <span
+                                <li><a href="#"><span class="property">Lorem ipsum</span> <span
                                             class="value"></span></a>
                                 </li>
-                                <li><a href="#"><span class="property">Events </span> <span class="value"></span></a>
+                                <li><a href="#"><span class="property">Lorem ipsum </span> <span
+                                            class="value"></span></a>
                                 </li>
-                                <li><a href="#"><span class="property">Travels </span> <span class="value"></span></a>
+                                <li><a href="#"><span class="property">Lorem ipsum </span> <span
+                                            class="value"></span></a>
                                 </li>
-                                <li><a href="#"><span class="property">Buy & Sell </span> <span
+                                <li><a href="#"><span class="property">Lorem ipsum </span> <span
+                                            class="value"></span></a>
+                                </li>
+                                <li><a href="#"><span class="property">Lorem ipsum </span> <span
                                             class="value"></span></a>
                                 </li>
                             </ul>
                         </div>
-
-                        <div class="filter_Dv variation-attr">
+                        <div class="categoryDv variation-attr">
                             <div class="fhead">
-                                <h5 class="green_para">Price Range</h5>
-                            </div>
-                            <div class="filter_all">
-                                <div class="mintxt">
-                                    <p>MIN</p>
-                                    <p>MAX</p>
-                                </div>
-                                <div class="range_slider">
-                                    <div class="range">
-                                        <!-- Range Slider HTML -->
-                                        <div slider="" id="slider-distance">
-                                            <div>
-                                                <div inverse-left="" style="width: 37%;"></div>
-                                                <div inverse-right="" style="width: 17%;"></div>
-                                                <div range="" style="left: 37%; right: 17%;"></div>
-
-                                                <span thumb="" style="left: 37%;"></span>
-                                                <span thumb="" style="left: 83%;"></span>
-
-                                                <div sign="" style="left: 37%;">
-                                                    <span id="value">37</span>
-                                                </div>
-
-                                                <div sign="" style="left: 83%;">
-                                                    <span id="value">83</span>
-                                                </div>
-                                            </div>
-
-                                            <input type="range" tabindex="0" value="30" max="100" min="0" step="1"
-                                                oninput="
-                                this.value=Math.min(this.value,this.parentNode.childNodes[5].value-1);
-                                var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
-                                var children = this.parentNode.childNodes[1].childNodes;
-                                children[1].style.width=value+'%';
-                                children[5].style.left=value+'%';
-                                children[7].style.left=value+'%';children[11].style.left=value+'%';
-                                children[11].childNodes[1].innerHTML=this.value;">
-
-                                            <input type="range" tabindex="0" value="60" max="100" min="0" step="1"
-                                                oninput="
-                                this.value=Math.max(this.value,this.parentNode.childNodes[3].value-(-1));
-                                var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
-                                var children = this.parentNode.childNodes[1].childNodes;
-                                children[3].style.width=(100-value)+'%';
-                                children[5].style.right=(100-value)+'%';
-                                children[9].style.left=value+'%';children[13].style.left=value+'%';
-                                children[13].childNodes[1].innerHTML=this.value;">
-                                        </div>
-                                        <!-- End Range Slider HTML -->
-                                    </div>
-                                </div>
-                                <div class="range-pricing">
-                                    <p class="green_para">Price: € 200</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="rateDv variation-attr">
-                            <div class="fhead">
-                                <h5>Rated</h5>
+                                <h5>Salary</h5>
                             </div>
                             <ul class="categories">
                                 <div class="alltxt">
                                     <span class="dot"></span>
-                                    <div class="product_stars_icon">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </div>
+                                    <p class="green_para">Upto $40 TO $50</p>
                                 </div>
-                                <div class="product_stars_icon1">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                                </div>
-                                <div class="product_stars_icon1">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                                </div>
-                                <div class="product_stars_icon1">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                                </div>
-                                <div class="product_stars_icon1">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                                </div>
+                                <li><a href="#"><span class="property">$50 TO $60</span> <span
+                                            class="value"></span></a>
+                                </li>
+                                <li><a href="#"><span class="property">$60 TO $70 </span> <span
+                                            class="value"></span></a>
+                                </li>
+                                <li><a href="#"><span class="property">$70 TO $80</span> <span
+                                            class="value"></span></a>
+                                </li>
+                                <li><a href="#"><span class="property">$80 TO $90</span> <span
+                                            class="value"></span></a>
+                                </li>
+                                <li><a href="#"><span class="property">$90 TO $100 </span> <span
+                                            class="value"></span></a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -404,7 +329,7 @@
                                     <div class=" col-md-6 col-xs-6">
                                         <div class="avatar-edit">
                                             <label for="imageUpload">Upload Your CV</label>
-                                            <input type="file" id="imageUpload" >
+                                            <input type="file" id="imageUpload">
                                         </div>
                                     </div>
                                     <div class="contactus-form-btn col-md-6 col-xs-6 text-right">
@@ -412,7 +337,8 @@
                                     </div>
                                 </div>
                                 <div class="text-center mt-3 mb-3">
-                                    <a href="" class="btn w-100" data-toggle="modal" data-target="#exampleModalCenter">Apply</a>
+                                    <a href="" class="btn w-100" data-toggle="modal"
+                                        data-target="#exampleModalCenter">Apply</a>
                                 </div>
                             </form>
                         </div>

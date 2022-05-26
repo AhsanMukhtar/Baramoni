@@ -90,3 +90,16 @@ section.dashboard {
     background-color: #3da033;
     border: 1px solid #3da033;
 }
+.select_pack_sec {
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+.select_pack_sec h4 {
+    font-size: 23px;
+    font-weight: 600;
+}
+.select_pack_sec p {
+    font-size: 12px;
+    text-align: center;
+}

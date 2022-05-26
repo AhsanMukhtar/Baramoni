@@ -2,6 +2,15 @@
 <!-- css file -->
 <link rel="stylesheet" href="css/seller-products.css">
 <!-- css file -->
+<style>
+.navbar-bg {
+    padding: 1rem 0.7rem 1rem 0.7rem;
+}
+
+ul.navbar-nav li.nav-item.dropdown .btn {
+    padding: 0px 40px;
+}
+</style>
 <!-- seller dashboard-wrapper starts here -->
 <!-- seller dashboard-wrapper starts here -->
 <section class="dashboard">
@@ -92,6 +101,19 @@
                     </div>
                 </div>
                 <div class="sellers_orders">
+                    <div class="form-group row pb-4">
+                        <div class="col-lg-3">
+                            <select name="" class="form-control" id="">
+                                <option value="Type" selected="">Filter</option>
+                                <option value="Type">Lorem ipsom</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-3">
+                            <input type="date" class="form-control" name="" id="">
+                        </div>
+                    </div>
 
                     <div class="table-resposnive">
                         <table class="table">
@@ -135,7 +157,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="orderid">Active</td>
+                                    <td class="orderid inactive">In Active</td>
                                     <td class="billingname">Lorem ipsum dolor </td>
                                     <!-- <td class="amount">CA12345</td> -->
                                     <td class="items">
@@ -320,7 +342,7 @@
                         </label>
                     </div>
                     <div class="form-group d-flex">
-                        <button class="btn pay-now " onclick="location.href='seller-payment.php';">Pay Now</button>
+                        <button class="btn pay-now " onclick="location.href='paynow_modal.php'" data-toggle="modal" data-target="#exampleModalCenter">Pay Now</button>
                         <button class="btn cancel">Cancel</button>
                     </div>
                 </form>
@@ -329,5 +351,7 @@
         </div>
     </div>
 </div>
+
+
 <!-- seller dashboard-wrapper end here -->
 <?php include 'inc/footer.php';?>
