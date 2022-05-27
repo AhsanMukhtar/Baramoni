@@ -342,7 +342,7 @@ ul.navbar-nav li.nav-item.dropdown .btn {
                         </label>
                     </div>
                     <div class="form-group d-flex">
-                        <button class="btn pay-now " onclick="location.href='paynow_modal.php'" data-toggle="modal" data-target="#exampleModalCenter">Pay Now</button>
+                        <a class="btn pay-now " onclick="location.href='paynow_modal.php'" data-toggle="modal" data-target="#exampleModalCenter">Pay Now</a>
                         <button class="btn cancel">Cancel</button>
                     </div>
                 </form>

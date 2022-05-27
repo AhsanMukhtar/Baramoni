@@ -371,6 +371,11 @@ section.dashboard {
   margin-top: -92px;
   margin-right: 24px;
 }
+.model-header button.close i {
+  font-size: 18px;
+  font-weight: lighter;
+  color: #3DA033;
+}
 .model-header h6 {
   font-size: 13px;
   font-family: "GT Walsheim Pro Regular";

@@ -53,8 +53,16 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
+                                <label for="BrandName">Product Name / Title</label>
+                                <input type="text" id="BrandName" class="form-control" placeholder="Lorem ipsum Dolor Sit">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="BrandName">Manufacturer Name</label>
+                                <input type="text" id="BrandName" class="form-control" placeholder="Baratham">
+                            </div>
+                            <div class="col-md-6">
                                 <label for="BrandName">Brand Name</label>
-                                <input type="text" id="BrandName" class="form-control" placeholder="Massage GUn">
+                                <input type="text" id="BrandName" class="form-control" placeholder="Samsung ">
                             </div>
                             <div class="col-md-6">
                                 <label for="Unit">Unit</label>
@@ -90,7 +98,7 @@
                                         <input type="file" class="custom-file-input" id="attachments" multiple
                                             onchange="javascript:updateList()">
                                     </div>
-                                    <ul id="fileList" class="file-list"></ul>
+                                    <ul id="fileList" class="file-list"> 1-Product image1.jpg,</ul>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -171,11 +179,17 @@
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-lg-7">
+                                            <div class="custom-control custom_checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                <label class="custom-control-label" for="customCheck1">I Confirm that the product and it specifications are correct and same as product</label>
+                                            </div>
+                                        </div>
+                            <div class="col-md-5">
                                 <div class="bottom_bar">
 
                                     <div class="button-group">
-                                        <button class="btn">Submit</button>
+                                        <button class="btn submit">Submit</button>
                                         <button class="btn">Cancel</button>
                                     </div>
                                 </div>

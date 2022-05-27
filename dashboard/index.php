@@ -1,3 +1,6 @@
+<!-- css file -->
+<link rel="stylesheet" href="css/profile.css">
+<!-- css file -->
 <?php include 'inc/app.php'; ?>
 <div class="wrapper">
     <?php include 'inc/sidebar.php' ?>
@@ -6,157 +9,148 @@
 
         <main class="content">
             <div class="container-fluid p-0">
-                <section class="dashboard">
-                    <div class="row">
-                        <div class="col-lg-12 pb-4">
-                            <div class="content-wrapper">
-                                <h3>My Dashboard</h3>
+                <section class="dashboard ProfileInfo-section">
+                    <h3 class="text-center myaccount pb-5">My Account</h3>
+                    <div class="information">
+                        <h4 class="top_heading">Personal Information</h4>
+                        <div class="row profile-h">
+                            <div class="col-md-2">
+                                <div class="useriamge">
+                                    <img src="../img/profile2.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="useriamgetext">
+                                    <div class="photo">
+                                        <p>Photo</p>
+                                    </div>
+                                    <div>
+                                        <p>Upload / Change Photo</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 text-right">
+                                <a href="edit-profile.php"> Edit Profile</a>
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="dashboard-card-wrapper">
-                                <div class="card-img-wrapper">
-                                    <figure>
-                                        <img src="img/YourProperty.svg" alt="">
-                                    </figure>
+                        <div class="row mt-3">
+                            <div class="col-md-4">
+                                <div class="profilen">
+                                    <p>First Name</p>
+                                    <p>Lorem</p>
                                 </div>
-                                <div class="card-content-wrapper">
-                                    <h4>Your Property</h4>
-                                    <h6>40+</h6>
+                            </div>
+                            <div class="col-md-4 ">
+                                <div class="profilen">
+                                    <p>Last Name</p>
+                                    <p>Ipsum</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="profilen">
+                                    <p>Country</p>
+                                    <div class="profileanc">
+                                        <p class="parisfrance">Paris France</p>
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="dashboard-card-wrapper">
-                                <div class="card-img-wrapper">
-                                    <figure>
-                                        <img src="img/TotalEnquires.svg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="card-content-wrapper">
-                                    <h4>Total Enquires</h4>
-                                    <h6>75</h6>
+                        <div class="row mt-4 mb-5">
+                            <div class="col-md-4">
+                                <div class="profilen">
+                                    <p>Phone</p>
+                                    <div class="profileanc">
+                                        <p class="profileno">+1-234-567-890</p>
+
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="dashboard-card-wrapper">
-                                <div class="card-img-wrapper">
-                                    <figure>
-                                        <img src="img/YourMembership.svg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="card-content-wrapper">
-                                    <h4>Your Membership</h4>
-                                    <h6>9.99 per Month</h6>
+                            <div class="col-md-4">
+                                <div class="profilen">
+                                    <p>Email</p>
+                                    <p>Example@gmail.com</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="dashboard-card-wrapper">
-                                <div class="card-img-wrapper">
-                                    <figure>
-                                        <img src="img/YourProperty.svg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="card-content-wrapper">
-                                    <h4>Sell Property</h4>
-                                    <h6>30+</h6>
+                            <div class="col-md-4">
+                                <div class="profilen">
+                                    <p>Password</p>
+                                    <div class="profileanc">
+                                        <p>**********</p>
+                                        <a href="change-password.php"> Change Password</a>
+                                    </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
-                    <div class="row Enquiry pt-5">
-                        <div class="col-lg-12">
-                            <div class="content-wrapper">
-                                <h3>Recent Enquiry </h3>
-                                <div class="enquire-table-wrapper">
-                                    <div class="form-group row pb-4">
-                                        <div class="col-lg-3">
-                                            <select name="" class="form-control" id="">
-                                                <option value="Type" selected>Type</option>
-                                                <option value="Type">Type</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-lg-3"></div>
-                                        <div class="col-lg-3"></div>
-                                        <div class="col-lg-3">
-                                            <input type="date" class="form-control" name="" id="">
-                                        </div>
-                                    </div>
-                                    <div class="table-wrapper">
-                                        <table class="table">
-                                            <thead>
-                                                <tr>
-                                                    <th class="enguire" scope="col">#Enquiry ID</th>
-                                                    <th class="Name" scope="col">Name</th>
-                                                    <th class="Contact" scope="col">Contact info</th>
-                                                    <th class="Property" scope="col">Property Address</th>
-                                                    <th class="Country" scope="col">Country</th>
-                                                    <th class="IP" scope="col">IP</th>
-                                                    <th class="Action" scope="col">Action</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td class="id">#1477</td>
-                                                    <td class="name">John Doe</td>
-                                                    <td class="contact"><a href="tel:+93860979512">+93860979512</a>
-                                                        <a href="mailto:ayhansaygin6@gmail.com">ayhansaygin6@gmail.com</a>
-                                                    </td>
-                                                    <td class="address">@23 market, Italy
-                                                        wd3 3pa</td>
-                                                    <td class="country">UK</td>
-                                                    <td class="ip_address">162.158.78.128</td>
-                                                    <td class="detail-btn">
-                                                        <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalCenter">View Details</button>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="id">#1477</td>
-                                                    <td class="name">John Doe</td>
-                                                    <td class="contact"><a href="tel:+93860979512">+93860979512</a>
-                                                        <a href="mailto:ayhansaygin6@gmail.com">ayhansaygin6@gmail.com</a>
-                                                    </td>
-                                                    <td class="address">@23 market, Italy
-                                                        wd3 3pa</td>
-                                                    <td class="country">UK</td>
-                                                    <td class="ip_address">162.158.78.128</td>
-                                                    <td class="detail-btn">
-                                                        <button class="btn">View Details</button>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="id">#1477</td>
-                                                    <td class="name">John Doe</td>
-                                                    <td class="contact"><a href="tel:+93860979512">+93860979512</a>
-                                                        <a href="mailto:ayhansaygin6@gmail.com">ayhansaygin6@gmail.com</a>
-                                                    </td>
-                                                    <td class="address">@23 market, Italy
-                                                        wd3 3pa</td>
-                                                    <td class="country">UK</td>
-                                                    <td class="ip_address">162.158.78.128</td>
-                                                    <td class="detail-btn">
-                                                        <button class="btn">View Details</button>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="id">#1477</td>
-                                                    <td class="name">John Doe</td>
-                                                    <td class="contact"><a href="tel:+93860979512">+93860979512</a>
-                                                        <a href="mailto:ayhansaygin6@gmail.com">ayhansaygin6@gmail.com</a>
-                                                    </td>
-                                                    <td class="address">@23 market, Italy
-                                                        wd3 3pa</td>
-                                                    <td class="country">UK</td>
-                                                    <td class="ip_address">162.158.78.128</td>
-                                                    <td class="detail-btn">
-                                                        <button class="btn">View Details</button>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
+                    <div class="information_content">
+                        <div class='business_cont'>
+                            <h4 class="top_heading">Business Information</h4>
+                            <a href="manage_customer.php"> Edit</a>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="business_label">
+                                    Business name
+                                </div>
+                                <div class="business_label">
+                                    Trade LIcence Number
+                                </div>
+                                <div class="business_label">
+                                    Business Contact Number
+                                </div>
+                                <div class="business_label">
+                                    Email
+                                </div>
+                                <div class="business_label">
+                                    Owner Name
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="business_ans">
+                                    Baramoni
+                                </div>
+                                <div class="business_ans">
+                                    J1S234-987
+                                </div>
+                                <div class="business_ans">
+                                    +971-324-4856879
+                                </div>
+                                <div class="business_ans">
+                                    info@baramoni.com
+                                </div>
+                                <div class="business_ans">
+                                    John Anderson
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="business_label">
+                                Business Contact Number
+                                </div>
+                                <div class="business_label">
+                                Business Type
+                                </div>
+                                <div class="business_label">
+                                Head Office Address
+                                </div>
+                                <div class="business_label mt-4">
+                                Main Products Catagories
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="business_ans">
+                                +123-456-789
+                                </div>
+                                <div class="business_ans">
+                                Advertisment OR Selling Product 
+                                </div>
+                                <div class="business_ans">
+                                Suit# 200A lorem Tower
+ipsum road. DX12345
+                                </div>
+                                <div class="business_ans">
+                                Lorem ipsum dolor
                                 </div>
                             </div>
                         </div>
@@ -166,32 +160,5 @@
         </main>
 
         <?php include 'inc/footer.php'; ?>
-    </div>
-</div>
-<!-- Modal -->
-<div class="modal fade fst-modal" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalCenterTitle">Enquiry #1477 for Property for Sale Id# 1497956 </h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <select name="" class="form-control" id="">
-                    <option value="Verified Status !" selected>Verified Status !</option>
-                </select>
-                <h4>Message</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p>
-                <div class="date-and-type-wrapper">
-                    <h6>Date & Time :<span>04-12 -2017</span></h6>
-                    <h6>Type :<span>End Terraced House</span></h6>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn form-control">Mark As Spam</button>
-            </div>
-        </div>
     </div>
 </div>

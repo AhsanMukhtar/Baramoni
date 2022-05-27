@@ -1,5 +1,5 @@
 .profile-form-wrapper form {
-  padding: 24px;
+  padding: 24px 30px;
   border: 1px solid #e6e6e6;
   border-radius: 10px;
   box-shadow: 0px 3px 6px 2px #00000036;
@@ -32,6 +32,7 @@
   font-size: 35px;
   font-weight: 600;
   color: #002349;
+  text-align: center;
 }
 .profile-img-wrapper img {
   height: 100px;

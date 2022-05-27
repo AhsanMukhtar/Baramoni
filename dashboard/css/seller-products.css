@@ -356,6 +356,18 @@ div#exampleModalCenter button.pay-now {
   font-weight: 500;
   border: 1px solid;
 }
+div#exampleModalCenter a.btn:hover {
+  outline: 1px solid #07a8c4;
+}
+div#exampleModalCenter a.pay-now {
+  background: #060606;
+  padding: 9px 44px;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid;
+}
 .sellers_orders .table-resposnive {
   overflow: scroll;
 }

@@ -8,6 +8,9 @@
 .navbar-bg {
     padding: 1rem 0.7rem 1rem 0.7rem;
 }
+.main{
+    background: #eaeaea;
+}
 </style>
 <div class="wrapper">
     <?php include 'inc/sidebar.php' ?>
@@ -16,11 +19,10 @@
         <section class="additional_marketing">
             <div class="payment_methods_box">
                 <div class="heading">
-                    <h3>Payment</h3>
+                    <h3 class="paydetail">Enter Your Payment Details</h3>
                 </div>
                 <div class="form-group">
-                    <label>Enter Card Number*</label>
-                    <input type="text" placeholder="Card Number" class="form-control">
+                    <input type="text" placeholder="Card Number                                                                                               Expiry date    /   CVV" class="form-control">
                 </div>
                 <div class="payments_method">
                     <ul class="payments_cards">
@@ -67,13 +69,10 @@
                     </ul>
                 </div>
                 <div class="button-group">
-                    <button class="paynow">Pay Now</button>
+                    <button class="done">Done</button>
                 </div>
             </div>
         </section>
-        <!-- Footer Include -->
-        <?php include 'inc/footer.php'; ?>
-        <!-- Footer Include -->
     </div>
 </div>
 <!-- seller dashboard-wrapper starts here -->
