@@ -23,11 +23,12 @@
                                 galley
                                 of type and scrambled it to make a type specimen book.</p>
                             <a href="shop.php" class="btn">Shop Now</a>
+                            <div class="hiddendv"></div>
                         </div>
                         <div class="col-lg-6">
                             <div class="slider-banner-img">
                                 <figure>
-                                    <img class="img-fluid" src="img/banner-img.png" alt="">
+                                    <img class="img-fluid hover_txt" src="img/banner-img.png" alt="">
                                 </figure>
                             </div>
                         </div>
@@ -37,7 +38,7 @@
             <div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 banner_content">
                             <small>
                                 <p class="">Electronic Deals</p>
                             </small>
@@ -48,10 +49,13 @@
                                 galley
                                 of type and scrambled it to make a type specimen book.</p>
                             <a href="shop.php" class="btn">Shop Now</a>
+                            <div class="hiddendv"></div>
                         </div>
                         <div class="col-lg-6">
                             <div class="slider-banner-img">
-                                <img class="img-fluid" src="img/banner-img.png" alt="">
+                                <figure>
+                                    <img class="img-fluid" src="img/banner-img.png" alt="">
+                                </figure>
                             </div>
                         </div>
                     </div>

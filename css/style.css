@@ -435,10 +435,14 @@ section.paralax_scroll {
 }
 .slider-banner-img figure {
   position: relative;
+  width: 279px;
+    height: 390px;
+    margin: auto;
 }
-.slider-banner-img figure:hover:before{
+.slider-banner-img figure:hover:before {
   opacity:1;
   transition:.5s;
+  /* transform: translate(-108px, 0px); */
 }
 .slider-banner-img figure:before {
   content: "40% OFF";
@@ -447,8 +451,17 @@ section.paralax_scroll {
   color: #fff;
   opacity: 0;
   transition: .5s;
-  left: -12rem;
+  left: -20rem;
   top: 0;
+}
+.banner_slider_sec .hiddendv {
+  height: 90px;
+  width: 300px;
+  background: transparent;
+  position: absolute;
+  top: -80px;
+  right: -115px;
+  z-index: 999;
 }
 .banner_slider_sec .slick-dots li button:before {
   font-size: 18px;
@@ -456,13 +469,14 @@ section.paralax_scroll {
 }
 .banner_slider_sec .slick-dots li.slick-active button:before{
   color: #fff;
-  border: 3px solid #619700;
+  /* border: 3px solid #619700; */
   border-radius: 50%;
   width: 21px;
   height: 20px;
   font-size: 16px;
-  line-height: 16px;
+  line-height: 23px;
   opacity: 1;
+  background: #619700;
   }
   .banner_slider_sec .slick-dots{
     bottom: 50px;
@@ -662,14 +676,15 @@ div#twdeal .twdcol {
   opacity: .75;
   color: black;
   color: #fff;
-  border: 5px solid #619700;
+  /* border: 5px solid #619700; */
   border-radius: 50%;
   /* width: 22px; */
   /* height: 22px; */
-  font-size: 11px;
+  font-size: 16px;
   /* line-height: 16px; */
-  line-height: initial;
+  line-height: 22px;
   opacity: 1;
+  background: #619700;
 }
 .organic_food_sec .slick-dots{
   bottom: -40px;

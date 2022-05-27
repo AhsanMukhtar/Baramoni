@@ -79,10 +79,10 @@
                                 </li>
                             </ul>
                             <ul class="social_links">
-                                <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="https://www.twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                                <li><a href="https://www.instagram.com/"><img src="img/icon_instagram.svg" class="img-fluid icon_instagram" alt=""></a></li>
+                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.instagram.com/" target="_blank"><img src="img/icon_instagram.svg" class="img-fluid icon_instagram" alt=""></a></li>
                             </ul>
                         </div>
                     </div>

@@ -369,7 +369,7 @@ div#exampleModalCenter a.pay-now {
   border: 1px solid;
 }
 .sellers_orders .table-resposnive {
-  overflow: scroll;
+  overflow: auto;
 }
 
 .pro-duct-heading h4 {

@@ -12,10 +12,10 @@
                         <a class="text-white" href="#">Legal Policy |</a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="text-white" href="#">Terms & Conditions |</a>
+                        <a class="text-white" href="../termsncondition.php">Terms & Conditions |</a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="text-white" href="#">Privicy Policy</a>
+                        <a class="text-white" href="../privacypolicy.php">Privicy Policy</a>
                     </li>
                 </ul>
             </div>
