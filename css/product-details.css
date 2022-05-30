@@ -17,7 +17,7 @@
 }
 .review-wrapper ul li span {
   color: #67828e;
-  font-family: "GT Walsheim Pro Regular";
+  font-family: "gtw";
   font-size: 14px;
   margin-left: 18px;
 }
@@ -27,13 +27,14 @@
     font-size: 23px;
 }
 .availability-wrapper span {
-  font-family: "GT Walsheim Pro regular";
+  font-family: "gtw";
   font-weight: 500;
   color: #50625c;
   font-size: 14px;
 }
 .availability-wrapper span.InStock {
   color: #3cb88e;
+  font-family: 'gtw';
 }
 .product-des-wrapper p {
   color: #67828e;
@@ -49,11 +50,12 @@
   padding: 0px;
   justify-content: space-between;
   margin-left: 21px;
-  font-family: "GT Walsheim Pro regular";
+  font-family: "gtw";
   color: #50625c;
 }
 .product-spec-list-wrapper ul li {
   font-size: 14px;
+  font-family: 'gtw';
 }
 
 
@@ -89,7 +91,7 @@
   color: #1aac7a;
   font-size: 20px;
   font-weight: bold;
-  font-family: "GT Walsheim Pro regular";
+  font-family: "gtw";
 }
 .number span {
   width: 38px;
@@ -286,17 +288,17 @@
   color: #0c0202;
   font-size: 18px;
   font-weight: 500;
-  font-family: "GT Walsheim Pro regular";
+  font-family: "gtw";
 }
 .product-details .comment-date {
   color: #818181;
-  font-family: "GT Walsheim Pro regular";
+  font-family: "gtw";
   font-size: 14px;
   font-weight: 400;
 }
 .blog-replies-wrapper p.comment-content {
   color: #000;
-  font-family: "GT Walsheim Pro regular";
+  font-family: "gtw";
   font-size: 13px;
   font-weight: 500;
 }
@@ -361,7 +363,7 @@
   border: 1px solid #c7c1c1;
   border-radius: 0px;
   padding: 11px;
-  font-family: "GT Walsheim Pro regular";
+  font-family: "gtw";
   font-size: 13px;
 }
 .rev-wrapper input::placeholder {
@@ -373,7 +375,7 @@
   border: 1px solid #c7c1c1;
   border-radius: 0px;
   padding: 11px;
-  font-family: "GT Walsheim Pro regular";
+  font-family: "gtw";
   font-size: 13px;
 }
 .rev-wrapper textarea::placeholder {
@@ -387,7 +389,7 @@
 }
 .rev-wrapper label.form-check-label {
   color: #000000;
-  font-family: "GT Walsheim Pro regular";
+  font-family: "gtw";
   font-size: 14px;
 }
 .rev-wrapper button.btn {

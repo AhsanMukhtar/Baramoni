@@ -20,7 +20,7 @@
 
                                     <div class="form-group row">
                                         <div class="col-lg-6">
-                                            <label for="">Old Password*</label>
+                                            <label for="">Current Password*</label>
                                             <input type="password" value="John" class="form-control">
                                         </div>
                                         <div class="col-lg-6">

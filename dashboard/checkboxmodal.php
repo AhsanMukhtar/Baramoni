@@ -2,7 +2,11 @@
 <!-- css file starts here -->
 <link rel="stylesheet" href="css/checkbox.css">
 <!-- css file starts here -->
-
+<style>
+    main.content {
+    background: #eee;
+}
+</style>
 <div class="wrapper">
     <?php include 'inc/sidebar.php' ?>
     <div class="main">

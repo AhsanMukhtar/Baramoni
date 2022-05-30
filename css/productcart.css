@@ -12,6 +12,7 @@ section.productCart h5{
     font-family: 'gm';
     font-size: 14px;
     padding-left: 1rem;
+    margin-bottom: 0;
 }
 .img-tls {
     display: none;
@@ -118,7 +119,7 @@ figure {
 }
 .productCart .tableDv .addcart .ActionBtn .cartBtn p {
     margin-bottom: 0;
-    font-size: 15px;
+    font-size: 14px;
     padding-left: 1rem;
 }
 .productCart .tableDv .addcart .ActionBtn .cartBtn p a {

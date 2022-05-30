@@ -124,11 +124,12 @@
   vertical-align: middle;
 }
 .sellers_orders tr.topbar {
-  border-bottom: 1px solid #bababa !important;
+  /* border-bottom: 1px solid #bababa !important; */
   height: 50px;
+  box-shadow: 0px 3px 5px 2px rgb(0 0 0 / 3%);
 }
 .sellers_orders .table tr {
-  border-bottom: 1px solid #bababa70;
+  /* border-bottom: 1px solid #bababa70; */
 }
 .sellers_orders td.orderid {
   font-size: 12px;
@@ -247,13 +248,13 @@
 }
 .sellers_orders .paginations_results ul.paginations li.arrow {
   border: 1px solid #ababab;
-  padding: 5px 15px;
+  padding: 3px 10px;
   border-radius: 4px;
   margin: 0 5px;
 }
 .sellers_orders .paginations_results ul.paginations li.arrow i {
-  color: #07a8c4;
-  font-size: 25px;
+  color: #3DA033;
+  font-size: 16px;
 }
 .sellers_orders .paginations_results ul.paginations li.pagi {
   padding: 0 5px;
@@ -275,7 +276,9 @@
 .sellers_orders tr td {
   text-decoration: underline;
 }
-
+.sellers_orders hr {
+  color: #BABABA;
+}
 @media (max-width: 575px) {
   .sellers_orders .table-resposnive {
     overflow: auto;
@@ -496,6 +499,12 @@ h5.product-name {
   font-weight: 500;
   transition: 0.6s;
   border-radius: 5px;
+}
+.sellers_orders input[type="date"]{
+  color:#607285;
+  text-transform: uppercase;
+  font-family: 'Poppins';
+  font-weight: 500;
 }
 /* responsive starts here */
 @media (max-width: 1345px) {

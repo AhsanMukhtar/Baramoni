@@ -228,14 +228,14 @@
                                             step</button></li>
                                 </ul> -->
                                         <button type="button" class="btn btn-primary"
-                                            onclick="stepper1.next()">Next</button>
+                                            onclick="stepper1.next()">Continue to Next Step</button>
                                     </form>
                                 </div>
                             </div>
                             <div class="col-md-5">
                                 <div class="OrderSummary">
                                     <div class="headingg">
-                                        <h3 class="font-25 pb-3">Order Summery</h3>
+                                        <h3 class="font-25 pb-3">Order Summary</h3>
                                     </div>
                                     <div class="order_info">
                                         <div class="itemTotal order-flex">
@@ -390,7 +390,7 @@
                                         order</button></li>
                             </ul> -->
                                     <a href="thankyou.php">
-                                        <button type="submit" class="btn btn-primary mt-5">Submit</button>
+                                        <button type="submit" class="btn btn-primary mt-5">Confirm & Place order</button>
                                     </a>
                                 </div>
                             </div>

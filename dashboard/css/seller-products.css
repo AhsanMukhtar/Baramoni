@@ -129,13 +129,13 @@
 }
 .sellers_orders .paginations_results ul.paginations li.arrow {
   border: 1px solid #ababab;
-  padding: 1px 9px;
+  padding: 3px 10px;
   border-radius: 4px;
   margin: 0 5px;
 }
 .sellers_orders .paginations_results ul.paginations li.arrow i {
-  color: #07a8c4;
-  font-size: 14px;
+  color: #3DA033;
+  font-size: 16px;
 }
 .sellers_orders .paginations_results ul.paginations li.pagi {
   padding: 0 5px;
@@ -167,8 +167,13 @@
   font-weight: 700;
   font-family: "Poppins";
   border-top: 0px;
-  border-bottom: 1px solid #bababa;
+  border-bottom: 1px solid #fbfbfb;
   text-align: center;
+  /* background: #fff; */
+}
+.dashboard .sellers_orders tr.topbar {
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 9%);
+    background: #fff;
 }
 .sellers_orders .table-resposnive td.orderid {
   color: #2dc215;
@@ -182,6 +187,7 @@
   font-weight: 300;
   color: #000000;
   text-align: center;
+  border-bottom: 1px solid #fbfbfb;
 }
 .sellers_orders .button-wrap button {
   background: transparent;
@@ -238,6 +244,9 @@ div#exampleModalCenter button.close {
 }
 .sellers_orders .table-resposnive td.orderid.inactive {
   color: #F37070;
+}
+.sellers_orders .table > :not(:first-child){
+  border-top:0px;
 }
 div#exampleModalCenter .modal-body {
   padding: 48px;
@@ -383,4 +392,10 @@ div#exampleModalCenter a.pay-now {
   justify-content: space-between;
   align-items: baseline;
   margin-top: 3rem;
+}
+.sellers_orders input[type="date"]{
+  color:#607285;
+  text-transform: uppercase;
+  font-family: 'Poppins';
+  font-weight: 500;
 }

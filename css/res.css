@@ -90,9 +90,12 @@ section.res-sec ul.paginations {margin: 50px 0 0;
     list-style: none;
     display: table;}
 
-    section.res-sec  ul.paginations li.active {color: #fff;
+    section.res-sec  ul.paginations li.active {
+        color: #fff;
     border-color: #619700;
-    background: #619700;}
+    background: #619700;
+    font-family: 'gtwb';
+}
 
     section.res-sec ul.paginations li {color: #000;
     display: inline-block;
@@ -101,13 +104,13 @@ section.res-sec ul.paginations {margin: 50px 0 0;
     height: 30px;
     text-align: center;
     margin: 0 5px;
-    font-family: "Montserrat";
+    font-family: "gtw";
     line-height: 30px;
     cursor: pointer;
     font-size: 12px;
     font-weight: bold;}
     section.res-sec ul.paginations i.fa.fa-angle-right {
-        font-size: 23px;
+        font-size: 20px;
     }
     .all-box figure{
         position: relative;

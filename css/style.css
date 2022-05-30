@@ -899,9 +899,9 @@ footer .footer_content:after {
   height: 60%;
   position: absolute;
   top: 4rem;
-  left: 0;
+  right: 0;
 }
-footer .col-lg-4:nth-child(1) .footer_content:after{
+footer .col-lg-4:last-child .footer_content:after{
   border: 0;
 }
 footer .footer_content p:after {

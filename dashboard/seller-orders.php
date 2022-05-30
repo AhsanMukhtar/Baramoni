@@ -220,6 +220,7 @@
                             </tr> -->
                             </table>
                         </div>
+                        <hr>
                         <div class="paginations_results">
                             <div class="showing_results">
                                 <p>Showing <b>7</b> of over 50 <b>results</b></p>

@@ -22,7 +22,7 @@
                     <h3 class="paydetail">Enter Your Payment Details</h3>
                 </div>
                 <div class="form-group">
-                    <input type="text" placeholder="Card Number                                                                                               Expiry date    /   CVV" class="form-control">
+                    <input type="text" placeholder="Card Number                                                                     Expiry date    /   CVV" class="form-control">
                 </div>
                 <div class="payments_method">
                     <ul class="payments_cards">

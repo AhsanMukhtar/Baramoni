@@ -111,7 +111,7 @@ ul.navbar-nav li.nav-item.dropdown .btn {
                         <div class="col-lg-3"></div>
                         <div class="col-lg-3"></div>
                         <div class="col-lg-3">
-                            <input type="date" class="form-control" name="" id="">
+                            <input type="date" class="form-control calender_prod" name="" id="calender_date">
                         </div>
                     </div>
 

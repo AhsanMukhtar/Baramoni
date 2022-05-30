@@ -158,7 +158,7 @@
   border-radius: 5px;
 }
 .additional_marketing .payment_methods_box {
-  padding: 25px 0 50px;
+  padding: 25px 0 25px;
 }
 .additional_marketing .payment_methods_box .heading {
   padding-bottom: 20px;
@@ -253,4 +253,8 @@ section.additional_marketing .form-group input.form-control::placeholder {
   font-weight: 600;
   width: -webkit-fill-available;
   border-radius: 3px;
+}
+.additional_marketing .payment_methods_box input[type="text"]{
+  text-transform: uppercase;
+  font-family: 'Poppins';
 }
