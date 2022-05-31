@@ -13,6 +13,11 @@
 <script src="js/jquery.iframe-transport.js"></script>
 <script src="js/jquery.fancy-fileupload.js"></script>
 <!-- Date Picker Calender -->
+<!-- Wow Js CDN -->
+<script src="js/wow.min.js"></script>
+<script>
+              new WOW().init();
+              </script>
 <!-- Jquery JS -->
 <script src="js/app.js"></script>
 <script src="js/index.js"></script>

@@ -14,10 +14,10 @@
                     <div class="row">
                         <div class="col-lg-6 banner_content">
                             <small>
-                                <p class="green_para">Electronic Deals</p>
+                                <p class="green_para wow animate__animated animate__fadeInDown">Electronic Deals</p>
                             </small>
-                            <h3>Smart Phone Accessories </h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                            <h3 class="wow animate__animated animate__fadeInLeft">Smart Phone Accessories </h3>
+                            <p class="wow animate__animated animate__fadeInRight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                                 has been
                                 the industry's standard dummy text ever since the 1500s, when an unknown printer took a
                                 galley
@@ -26,7 +26,7 @@
                             <div class="hiddendv"></div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="slider-banner-img">
+                            <div class="slider-banner-img ">
                                 <figure>
                                     <img class="img-fluid hover_txt" src="img/banner-img.png" alt="">
                                 </figure>
@@ -40,10 +40,10 @@
                     <div class="row">
                         <div class="col-lg-6 banner_content">
                             <small>
-                                <p class="">Electronic Deals</p>
+                                <p class="green_para wow animate__animated animate__fadeInDown">Electronic Deals</p>
                             </small>
-                            <h3>Smart Phone Accessories </h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                            <h3 class="wow animate__animated animate__fadeInLeft">Smart Phone Accessories </h3>
+                            <p class="wow animate__animated animate__fadeInRight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                                 has been
                                 the industry's standard dummy text ever since the 1500s, when an unknown printer took a
                                 galley
@@ -67,7 +67,7 @@
     <!-- section our new product start here -->
     <section class="ourproduct-section">
         <div class="container">
-            <div class="ourproduct-head mb-5">
+            <div class="ourproduct-head mb-5 wow animate__animated animate__fadeInDown">
                 <h4>Our New Products</h4>
                 <a href="">View All</a>
             </div>
@@ -223,7 +223,7 @@
     <!-- section this week deal start here -->
     <section class="week_deal_section">
         <div class="container">
-            <div class="ourproduct-head mb-5 mt-5">
+            <div class="ourproduct-head mb-5 mt-5 wow animate__animated animate__fadeInDown">
                 <h4>This Week Deal</h4>
                 <div class="express_deal-sec">
                     <span>Express Deal :</span>
@@ -240,7 +240,7 @@
             <div class="col-lg-6 twdcol">
                 <div class="week_slider week_slider_img">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 img_product_h">
                             <div>
                                 <img class="img-fluid" src="img/product5.png" alt="">
                             </div>
@@ -284,7 +284,7 @@
             <div class="col-lg-6 twdcol">
                 <div class="week_slider week_slider_img2">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 img_product_h">
                             <div>
                                 <img class="img-fluid" src="img/product6.png" alt="">
                             </div>
@@ -328,7 +328,7 @@
             <div class="col-lg-6 twdcol">
                 <div class="week_slider week_slider_img3">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 img_product_h">
                             <div>
                                 <img class="img-fluid" src="img/product7.png" alt="">
                             </div>
@@ -375,7 +375,7 @@
     <!-- section top selling items start here -->
     <section class="ourproduct-section">
         <div class="container">
-            <div class="ourproduct-head mb-5 mt-5">
+            <div class="ourproduct-head mb-5 mt-5 wow animate__animated animate__fadeInDown">
                 <h4>Top Selling Items</h4>
                 <a href="">View All</a>
             </div>
@@ -679,33 +679,33 @@
         <div class="container">
             <div class="organic_food_sec">
                 <div>
-                    <img src="img/organic1.png" class="img-fluid" alt="">
+                    <!-- <img src="img/organic1.png" class="img-fluid" alt=""> -->
                     <div class="organic_food_conent">
-                        <p class="green_para">Foods</p>
-                        <h3>Organic Foods Up To <span class="green_bpara">50%</span> Off</h3>
-                        <p class="para1">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem
+                        <p class="green_para wow animate__animated animate__fadeInDown">Foods</p>
+                        <h3 class="wow animate__animated animate__fadeInLeft">Organic Foods Up To <span class="green_bpara">50%</span> Off</h3>
+                        <p class="para1 wow animate__animated animate__fadeInRight">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem
                             Ipsum
                             industry's</p>
                         <a href="" class="btn">Shop Now</a>
                     </div>
                 </div>
                 <div>
-                    <img src="img/organic1.png" class="img-fluid" alt="">
+                    <!-- <img src="img/organic1.png" class="img-fluid" alt=""> -->
                     <div class="organic_food_conent">
-                        <p class="green_para">Foods</p>
-                        <h3>Organic Foods Up To <span class="green_bpara">50%</span> Off</h3>
-                        <p class="para1">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem
+                        <p class="green_para wow animate__animated animate__fadeInDown">Foods</p>
+                        <h3 class="wow animate__animated animate__fadeInLeft">Organic Foods Up To <span class="green_bpara">50%</span> Off</h3>
+                        <p class="para1 wow animate__animated animate__fadeInRight">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem
                             Ipsum
                             industry's</p>
                         <a href="" class="btn">Shop Now</a>
                     </div>
                 </div>
                 <div>
-                    <img src="img/organic1.png" class="img-fluid" alt="">
+                    <!-- <img src="img/organic1.png" class="img-fluid" alt=""> -->
                     <div class="organic_food_conent">
-                        <p class="green_para">Foods</p>
-                        <h3>Organic Foods Up To <span class="green_bpara">50%</span> Off</h3>
-                        <p class="para1">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem
+                        <p class="green_para wow animate__animated animate__fadeInDown">Foods</p>
+                        <h3 class="wow animate__animated animate__fadeInLeft">Organic Foods Up To <span class="green_bpara">50%</span> Off</h3>
+                        <p class="para1 wow animate__animated animate__fadeInRight">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem
                             Ipsum
                             industry's</p>
                         <a href="" class="btn">Shop Now</a>
@@ -720,17 +720,17 @@
     <section class="testimonial_section mt-5">
         <div class="container">
             <div class="testimonial_sec">
-                <p class="green_para">
+                <p class="green_para wow animate__animated animate__fadeInDown">
                     TESTIMONIALS
                 </p>
-                <h4>What Our Client Says</h4>
+                <h4 class="wow animate__animated animate__fadeInDown">What Our Client Says</h4>
                 <div class="testimonial_sec_content">
                     <div class="testimonial_carousel">
                         <!-- <img src="img/testimonial1.png" class="img-fluid" alt=""> -->
                         <div class="testimonial_content">
                             <img src="img/testimonial2.png" class="img-fluid test_user_img" alt="">
                             <img src="img/testimonial3.png" class="img-fluid comma_img" alt="">
-                            <p class="para1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            <p class="para1 wow animate__animated animate__fadeInLeft">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                 unknown printer took a galley of type and scrambled it to make a type specimen book. It
                                 has
@@ -747,7 +747,7 @@
                         <div class="testimonial_content">
                             <img src="img/testimonial2.png" class="img-fluid test_user_img" alt="">
                             <img src="img/testimonial3.png" class="img-fluid comma_img" alt="">
-                            <p class="para1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            <p class="para1 wow animate__animated animate__fadeInLeft">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                                 unknown printer took a galley of type and scrambled it to make a type specimen book. It
                                 has
@@ -770,9 +770,9 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div>
-                        <p class="green_para">Sell Products</p>
-                        <h3 class="blue_head">You Want To Sell / Advertise Anything?</h3>
-                        <p class="para1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        <p class="green_para wow animate__animated animate__fadeInLeft">Sell Products</p>
+                        <h3 class="blue_head wow animate__animated animate__fadeInLeft">You Want To Sell / Advertise Anything?</h3>
+                        <p class="para1 wow animate__animated animate__fadeInRight">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
                             unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <a href="" class="btn">

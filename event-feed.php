@@ -16,7 +16,7 @@
                 <div class="feature-section event-feed">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="features-content">
+                            <div class="features-content wow animate__animated animate__fadeInLeft">
                                 <div class="user-content">
                                     <div class="user-img">
                                         <img src="img/eventuser.png" alt="">
@@ -40,7 +40,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="features-img">
+                            <div class="features-img wow animate__animated animate__fadeInRight">
                                 <img src="img/event-feed1.png" class="img-fluid" alt="">
                             </div>
                         </div>
@@ -53,7 +53,7 @@
                 <div class="feature-section event-feed">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="features-content">
+                            <div class="features-content wow animate__animated animate__fadeInLeft">
                                 <div class="user-content">
                                     <div class="user-img">
                                         <img src="img/eventuser.png" alt="">
@@ -77,7 +77,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="features-img">
+                            <div class="features-img wow animate__animated animate__fadeInRight">
                                 <img src="img/event-feed2.png" class="img-fluid" alt="">
                             </div>
                         </div>
@@ -90,7 +90,7 @@
                 <div class="feature-section event-feed">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="features-content">
+                            <div class="features-content wow animate__animated animate__fadeInLeft">
                                 <div class="user-content">
                                     <div class="user-img">
                                         <img src="img/eventuser.png" alt="">
@@ -114,7 +114,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="features-img">
+                            <div class="features-img wow animate__animated animate__fadeInRight">
                                 <img src="img/event-feed3.png" class="img-fluid" alt="">
                             </div>
                         </div>

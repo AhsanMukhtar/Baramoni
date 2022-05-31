@@ -14,7 +14,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="profile-form-wrapper">
-                                <div class="profile-form-heading-wrapper">
+                                <div class="profile-form-heading-wrapper wow animate__animated animate__fadeInDown">
                                     <h3>Edit Profile</h3>
                                 </div>
                                 <form action="" class="mb-5">

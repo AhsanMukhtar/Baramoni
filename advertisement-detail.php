@@ -21,12 +21,12 @@
                     <div class="week_slider advertisement_detail week_slider_img2 mt-5">
                         <div class="row">
                             <div class="col-md-6">
-                                <div>
+                                <div class="wow animate__animated animate__fadeInLeft">
                                     <img class="img-fluid" src="img/product6.png" alt="">
                                 </div>
                             </div>
                             <div class="col-md-6 week_img_content">
-                                <div class="">
+                                <div class="wow animate__animated animate__fadeInRight">
                                     <div>
                                         <small>
                                             <p class="add_green">Clothes</p>
@@ -69,7 +69,7 @@
                                             </del>
                                         </div>
                                         <div class="text-right">
-                                            <a href="chat.php" class="btn">Chat Now</a>
+                                            <a href="#" class="btn">Chat Now</a>
                                         </div>
                                     </div>
                                     <div class="line_img">

@@ -20,6 +20,9 @@ body {
     box-shadow: none;
     border-radius: 2px;
 }
+.thankyou .happyShopping .button-group a.btn:hover {
+    background: #fff;
+}
 .thankyou {
     padding: 2rem 0;
     

@@ -221,6 +221,11 @@ h3.basic_head {
     flex: 1;
     background: #3DA033;
   }
+  .card-wrapper button.btn:hover{
+    background: #fff;
+    color: #3DA033;
+    border: 1px solid #3DA033;
+  }
   .pro-content-wrapper img {
     background: #3DA033;
     padding: 5px;

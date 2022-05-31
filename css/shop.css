@@ -21,6 +21,9 @@ header#header .logo-img {
   text-align: left;
   margin-bottom: 2rem;
 }
+.drbtn .dropdown .dropdown-menu {
+  top: 35px;
+}
 .drbtn .dropdown-toggle::after {
   position: absolute;
   right: 15px;

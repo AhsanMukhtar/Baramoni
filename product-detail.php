@@ -18,12 +18,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="product-detail-img">
+                        <div class="product-detail-img wow animate__animated animate__fadeInLeft">
                             <img class="img-fluid" src="img/detail1.png" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-6 mt-4">
-                        <div class="product-name-wrapper">
+                    <div class="col-lg-6 mt-4 wow animate__animated animate__fadeInRight">
+                        <div class="product-name-wrapper ">
                             <h4>Lorem Ipsum is simply dummy text</h4>
                         </div>
                         <div class="review-wrapper">
@@ -91,14 +91,10 @@
                                 <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                 <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                 <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-
-
                             </ul>
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </section>
         <!-- products-detail End here -->
@@ -108,7 +104,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <div class="product-info">
+                        <div class="product-info wow animate__animated animate__fadeInLeft">
                             <h3>Product Information</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                 ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -116,14 +112,14 @@
                                 dolor sit amet</p>
                         </div>
 
-                        <div class="product2">
+                        <div class="product2 wow animate__animated animate__fadeInLeft">
                             <h5>Ingredients and potential allergens</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                 ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolor</p>
                         </div>
 
-                        <div class="product2">
+                        <div class="product2 wow animate__animated animate__fadeInLeft">
                             <h5>Recommended intake</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                 ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -132,14 +128,14 @@
                     </div>
 
                     <div class="col-md-4">
-                        <div class="sports-pic">
+                        <div class="sports-pic  wow animate__animated animate__fadeInRight">
                             <img class="img-fluid" src="img/detail2.png" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <div class="product2">
+                        <div class="product2 wow animate__animated animate__fadeInLeft">
                             <h5>Warnings and additional information</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                 ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -160,7 +156,7 @@
                     <div class="col-md-12">
                         <div class="blog-replies-wrapper">
                             <div class="row">
-                                <div class="col-sm-12 pb-5 for-cr">
+                                <div class="col-sm-12 pb-5 for-cr wow animate__animated animate__fadeInLeft">
                                     <h4>Our Clients Reviews</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                         eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit
@@ -168,55 +164,15 @@
                                         ut labore et dolore.Lorem ipsum dolor sit amet,Lorem ipsum dolor sit
                                         amet</p>
                                 </div>
-                                <!-- <div class="col-lg-1">
-                                    <div class="user-img-wrapper">
-                                        <figure>
-                                            <img src="img/rev1.png" class="img-fluid" alt="">
-                                        </figure>
-                                    </div>
-                                </div>
-                                <div class="col-lg-11">
-                                    <div class="user-content-wrapper">
-                                        <h5 class="replied-user-name">John Doe</h5>
-                                        <div class="date-and-starts-wrapper d-flex">
-                                            <h6 class="comment-date">26 March 2022</h6>
-                                            <div class="rating-wrapper">
-                                                <ul>
-                                                    <li>
-                                                        <i class="fa fa-star"></i>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fa fa-star"></i>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fa fa-star"></i>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fa fa-star"></i>
-                                                    </li>
-                                                    <li>
-                                                        <i class="fa fa-star"></i>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <p class="comment-content">Lorem ipsum dolor sit amet, consectetur
-                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                            exercitation ullamco laboris nisLorem ipsum dolor sit amet,
-                                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                            labore et</p>
-                                    </div>
-                                </div> -->
                                 <div class="col-lg-1">
-                                    <div class="user-img-wrapper">
+                                    <div class="user-img-wrapper wow animate__animated animate__fadeInLeft">
                                         <figure>
                                             <img src="img/client1.png" class="img-fluid" alt="">
                                         </figure>
                                     </div>
                                 </div>
                                 <div class="col-lg-11">
-                                    <div class="user-content-wrapper">
+                                    <div class="user-content-wrapper wow animate__animated animate__fadeInRight">
                                         <h5 class="replied-user-name">John Doe</h5>
                                         <div class="date-and-starts-wrapper d-flex">
                                             <h6 class="comment-date">26 March 2022</h6>
@@ -250,14 +206,14 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-1">
-                                    <div class="user-img-wrapper">
+                                    <div class="user-img-wrapper wow animate__animated animate__fadeInLeft">
                                         <figure>
                                             <img src="img/client2.png" class="img-fluid" alt="">
                                         </figure>
                                     </div>
                                 </div>
                                 <div class="col-lg-11">
-                                    <div class="user-content-wrapper">
+                                    <div class="user-content-wrapper wow animate__animated animate__fadeInRight">
                                         <h5 class="replied-user-name">John Doe</h5>
                                         <div class="date-and-starts-wrapper d-flex">
                                             <h6 class="comment-date">26 March 2022</h6>

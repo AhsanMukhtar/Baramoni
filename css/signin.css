@@ -33,6 +33,9 @@ section.sigin_section a.btn {
     border-radius: 0;
     background: #3DA033;
 }
+section.sigin_section a.btn:hover{
+    background: #fff;
+}
 section.sigin_section a.btn.reg_btn {
     border-radius: 3px;
     margin-top: 1.5rem;

@@ -16,3 +16,4 @@
 <link rel="stylesheet" href="css/app.css">
 <!--    Custom CSS-->
 <link rel="stylesheet" href="css/fancy_fileupload.css">
+<link rel="stylesheet" href="css/animate.css">

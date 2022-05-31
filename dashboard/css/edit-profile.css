@@ -52,6 +52,11 @@
   display: unset;
   height: 44px;
 }
+.porfile-img-upload-wrapper button.btns:hover{
+  background: #fff;
+  border: 1px solid #000;
+  color: #000;
+}
 .processing-wrapper h6 {
   color: #a4a4a4;
   font-size: 13px;
@@ -65,6 +70,11 @@
   padding: 0 30px;
   display: unset;
   height: 44px;
+}
+.profile-form-wrapper button.sub-btn:hover{
+  background: #fff;
+  border: 1px solid #000;
+  color: #000;
 }
 .profile-form-sec label.custom-control-label {
   font-size: 10px;

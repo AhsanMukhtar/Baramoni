@@ -107,7 +107,7 @@
   font-family: "Poppins";
   font-size: 12px;
   cursor: pointer;
-  border: 2px solid #060606;
+  border: 1px solid #060606;
   transition: 0.6s;
 }
 .dashboard .products_adding .bottom_bar .button-group button.btn.submit{
@@ -115,8 +115,9 @@
   color: #fff;
 }
 .dashboard .products_adding .bottom_bar .button-group button.btn:hover {
-  background: #e0faff;
-  color: #07a8c4;
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
 }
 .dashboard .products_adding .custom-file {
   width: 100%;

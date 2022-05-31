@@ -241,6 +241,9 @@ figure {
     font-weight: 100;
     /* margin-bottom: 20px; */
 }
+.productCart .proceed a.btn:hover {
+    background: #fff;
+}
 .productCart .proceed h6 {
     font-size: 12px;
 }

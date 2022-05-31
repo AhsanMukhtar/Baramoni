@@ -8,7 +8,7 @@
 <!-- section profile head start -->
 <section class="section-head">
     <div class="">
-        <h3 class="heading-page">My Account</h3>
+        <h3 class="heading-page wow animate__animated animate__fadeInDown">My Account</h3>
     </div>
 </section>
 <!-- section profile head End -->
@@ -18,7 +18,7 @@
 <section class="ProfileInfo-section agentprofile">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 wow animate__animated animate__fadeInLeft">
                 <h3 class="useracc">My Accounts</h3>
                 <div class="user-profile-sec">
                     <div class="useriamge">
@@ -35,13 +35,13 @@
                     <hr class="line">
                     <div class="username1"><a href="wishlist.php">My Wishlist</a></div>
                     <hr class="line">
-                    <div class="username1"><a href="chat.php">Chat</a></div>
+                    <div class="username1"><a href="#">Chat</a></div>
                     <hr class="line">
                     <div class="username1"><a href="signin.php">Log Out</a></div>
 
                 </div>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-9 wow animate__animated animate__fadeInRight">
                 <h3 class="basic_head">
                     Basic Information
                 </h3>

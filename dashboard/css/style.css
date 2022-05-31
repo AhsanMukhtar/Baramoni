@@ -329,6 +329,12 @@ ul.navbar-nav li.nav-item.dropdown .btn {
   align-items: center;
   padding: 0px 30px;
 }
+ul.navbar-nav li.nav-item.dropdown .btn:hover{
+  background: #fff;
+  border: 1px solid #000;
+  color: #000;
+
+}
 nav.navbar.navbar-expand a.nav-link.profile {
   font-size: 16px;
   font-weight: 500;

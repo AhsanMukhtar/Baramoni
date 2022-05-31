@@ -19,7 +19,7 @@
     <!-- singin page start here -->
     <section class="signup_section">
         <div class="container">
-            <div class="signup_heading_sec">
+            <div class="signup_heading_sec wow animate__animated animate__fadeInDown">
                 <h3>Register Your Account</h3>
                 <p class="grey_txt">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy aliquyam erat, sed diam
                     voluptua.
@@ -28,7 +28,7 @@
             <div class="signup_form_sec">
                 <div class="row mt-5">
                     <div class="col-lg-5">
-                        <div class="">
+                        <div class="wow animate__animated animate__fadeInLeft">
                             <form action="profile.php">
                                 <div class="form-start">
                                     <div class="form-group">
@@ -106,7 +106,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 signinnn">
-                        <div class="dhaa_sec text-center">
+                        <div class="dhaa_sec text-center wow animate__animated animate__fadeInRight">
                             <div class="sigw">
                                 <a href="" class="signupwf">
                                     <i class="fa fa-facebook mr-5"></i>

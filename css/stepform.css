@@ -51,6 +51,19 @@ figure {
   background: transparent;
   border: unset;
 }
+.bs-stepper .bs-stepper-header {
+  position: absolute;
+  left: 0;
+  top: 6rem;
+  right: 0;
+}
+.bs-stepper{
+  position: relative;
+}
+.bs-stepper .bs-stepper-content .content h2 {
+  margin-bottom: 6rem;
+  margin-top: 2rem;
+}
 .setpper-step-container {
   padding-bottom: 0;
 }
@@ -208,6 +221,10 @@ span.round-tab i{
   border-color: #619700;
   color: #fff;
   font-family: 'gm';
+}
+.checkout_page_sec .btn:hover {
+  background: #fff;
+  color: #619700;
 }
 .checkout_page_sec .addressDetail {
   background: #fff;

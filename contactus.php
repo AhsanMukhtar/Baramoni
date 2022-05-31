@@ -21,7 +21,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <div class="get-qoute">
+                        <div class="get-qoute wow animate__animated animate__fadeInDown">
                             <h2>Get a free Quote</h2>
                             <p>If you require any further help or support, arrange a call back at a time that suits you.
                                 Simply book a suitable date and time below and we will give you a call. We look forward
@@ -83,7 +83,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="info-all">
+                        <div class="info-all wow animate__animated animate__fadeInLeft">
                             <img class="img-fluid" src="img/phone.png" alt="">
                             <h4>Talk to us</h4>
                             <a href="tel:123456789">123456789</a>
@@ -91,7 +91,7 @@
                     </div>
 
                     <div class="col-md-4 for-borders">
-                        <div class="info-all">
+                        <div class="info-all wow animate__animated animate__fadeInDown">
                             <img class="img-fluid" src="img/mail.png" alt="">
                             <h4>Contact us</h4>
                             <a href="mailto:support@Barmoni.com">support@Barmoni.com</a>
@@ -99,7 +99,7 @@
                     </div>
 
                     <div class="col-md-4">
-                        <div class="info-all">
+                        <div class="info-all wow animate__animated animate__fadeInRight">
                             <img class="img-fluid" src="img/map.png" alt="">
                             <h4>Location</h4>
                             <p>Lorem Ipsum is simply dummy <br> text of the printing</p>

@@ -19,7 +19,7 @@
     <!-- singin page start here -->
     <section class="sigin_section">
         <div class="container">
-            <div class="signin_heading_sec">
+            <div class="signin_heading_sec wow animate__animated animate__fadeInDown">
                 <h3>Sign In</h3>
                 <p class="grey_txt">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy aliquyam erat, sed diam
                     voluptua.
@@ -28,7 +28,7 @@
             <div class="signin_form_sec">
                 <div class="row mt-5">
                     <div class="col-lg-5">
-                        <div class="">
+                        <div class=" wow animate__animated animate__fadeInLeft">
                             <form action="profile.php">
                                 <div class="form-start">
                                     <div class="form-group">
@@ -78,7 +78,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 dhaa_section">
-                        <div class="dhaa_sec text-center">
+                        <div class="dhaa_sec text-center wow animate__animated animate__fadeInRight">
                             <h3>DON'T HAVE AN ACCOUNT?</h3>
                             <p class="grey_txt">
                                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor

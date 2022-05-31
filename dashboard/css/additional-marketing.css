@@ -253,6 +253,12 @@ section.additional_marketing .form-group input.form-control::placeholder {
   font-weight: 600;
   width: -webkit-fill-available;
   border-radius: 3px;
+  border: 1px solid #000;
+}
+.additional_marketing .payment_methods_box .button-group button.done:hover{
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
 }
 .additional_marketing .payment_methods_box input[type="text"]{
   text-transform: uppercase;

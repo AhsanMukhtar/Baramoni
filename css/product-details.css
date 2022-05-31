@@ -3,7 +3,7 @@
 }
 .product-details .product-detail-img {
   -webkit-box-shadow: 0px 4px 5px 0px rgb(0 0 0 / 12%);
-  background: #F9FBF5;
+  background: #f9fbf5;
 }
 .review-wrapper ul {
   padding: 0px;
@@ -23,8 +23,8 @@
 }
 .product-name-wrapper h4 {
   color: #005739;
-  font-family: 'gtwb';
-    font-size: 23px;
+  font-family: "gtwb";
+  font-size: 23px;
 }
 .availability-wrapper span {
   font-family: "gtw";
@@ -34,7 +34,7 @@
 }
 .availability-wrapper span.InStock {
   color: #3cb88e;
-  font-family: 'gtw';
+  font-family: "gtw";
 }
 .product-des-wrapper p {
   color: #67828e;
@@ -55,9 +55,8 @@
 }
 .product-spec-list-wrapper ul li {
   font-size: 14px;
-  font-family: 'gtw';
+  font-family: "gtw";
 }
-
 
 .product-spec-list-wrapper ul li::marker {
   color: #1aac7a;
@@ -74,8 +73,8 @@
 }
 .counter-and-price-wrapper span.sales-price {
   color: #3da033;
-  font-family: 'gtwb';
-    font-size: 35px;
+  font-family: "gtwb";
+  font-size: 35px;
 }
 .counter-and-price-wrapper strike.regular-price {
   color: #8398a1;
@@ -111,22 +110,29 @@
 .product-details .button-wrapper button {
   margin: 10px 0px;
   border-radius: 4px;
-  padding: .5rem .75rem;
+  padding: 0.5rem 0.75rem;
   font-family: "gtw";
   transition: all 0.4s ease-in-out;
 }
 .product-details .button-wrapper button.cart-btn.form-control {
-  background: #3DA033;
+  background: #3da033;
   color: #fff;
   border: 2px solid transparent;
 }
 .product-details .button-wrapper a.cart-btn.form-control {
-  background: #3DA033;
+  background: #3da033;
   color: #fff;
   border: 2px solid transparent;
   text-align: center;
   margin-top: 1.5rem;
   font-size: 14px;
+  transition: all 0.4s ease-in-out;
+}
+.product-details .button-wrapper a.cart-btn.form-control:hover {
+  background-color: #fff;
+  color: #3da033;
+  border: 2px solid #3da033;
+  text-decoration: unset;
 }
 .product-details .button-wrapper button i {
   margin-right: 19px;
@@ -142,12 +148,17 @@
   text-align: center;
 }
 .button-wrapper button.wishlist-wrapper {
-  background: #FFA33F;
+  background: #ffa33f;
   color: #ffffff;
   font-family: "gtw";
   font-size: 14px;
   font-weight: 500;
   border: 2px solid transparent;
+}
+.button-wrapper button.wishlist-wrapper:hover {
+  background: #fff;
+  color: #ffa33f;
+  border: 2px solid #ffa33f;
 }
 .other-spec-wrapper ul {
   padding: 0px;
@@ -324,8 +335,8 @@
   font-family: FontAwesome;
   display: inline-block;
   content: "\f005";
-  content: '\f006 ';
-  color: #5E5E5E;
+  content: "\f006 ";
+  color: #5e5e5e;
   font-size: 13px;
   font-weight: bold;
   margin: 10px 10px 0 0;
@@ -367,9 +378,9 @@
   font-size: 13px;
 }
 .rev-wrapper input::placeholder {
-  color: #5E5E5E;
+  color: #5e5e5e;
   font-size: 12px;
-  font-family: 'gtwm';
+  font-family: "gtwm";
 }
 .rev-wrapper textarea {
   border: 1px solid #c7c1c1;
@@ -379,9 +390,9 @@
   font-size: 13px;
 }
 .rev-wrapper textarea::placeholder {
-  color: #5E5E5E;
+  color: #5e5e5e;
   font-size: 12px;
-  font-family: 'gtwm';
+  font-family: "gtwm";
 }
 .rev-wrapper .form-check-input {
   margin-top: 7px;
@@ -394,6 +405,11 @@
 }
 .rev-wrapper button.btn {
   padding: 10px 45px;
+}
+.rev-wrapper button.btn:hover {
+  background: #fff;
+  color: #619700;
+  border: 1px solid #619700;
 }
 .product-img-slider-wrapper {
   margin: 30px 0px;
@@ -448,27 +464,27 @@
 .product-info h3 {
   font-size: 24px;
   color: #013307;
-  font-family: 'gtw';
+  font-family: "gtw";
   font-weight: 600;
 }
 
 .product2 h5 {
   font-size: 20px;
-  color: #5D7068;
+  color: #5d7068;
   text-transform: uppercase;
 }
 
 .product-info p {
   font-size: 13px;
   color: #707070;
-  font-family: 'gtw';
+  font-family: "gtw";
   line-height: 24px;
 }
 
 .for-cr h4 {
   font-size: 22px;
   color: #013307;
-  font-family: 'gtw';
+  font-family: "gtw";
   font-weight: 700;
 }
 .user-img-wrapper img {
@@ -477,7 +493,7 @@
 .for-cr p {
   font-size: 13px;
   color: #707070;
-  font-family: 'gtw';
+  font-family: "gtw";
   font-weight: lin;
   font-weight: 400;
   line-height: 24px;
@@ -485,8 +501,8 @@
 
 h5.replied-user-name {
   font-size: 18px;
-  color: #0C0202;
-  font-family: 'gtw';
+  color: #0c0202;
+  font-family: "gtw";
   font-weight: 400;
   text-transform: capitalize;
   margin-bottom: 5px;
@@ -506,7 +522,7 @@ h5.replied-user-name {
 .other-spec-wrapper h5 {
   font-size: 20px;
   color: #3da033;
-  font-family: 'gtw';
+  font-family: "gtw";
   font-weight: 600;
 }
 /* checkbox section start here */
@@ -530,11 +546,12 @@ h5.replied-user-name {
 }
 
 .prod_detail_check label:before {
-  content:'';
+  content: "";
   -webkit-appearance: none;
   background-color: transparent;
   border: 2px solid #619700;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
   padding: 6px;
   display: inline-block;
   position: relative;
@@ -545,7 +562,7 @@ h5.replied-user-name {
 }
 
 .prod_detail_check input:checked + label:after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 3px;
@@ -556,7 +573,7 @@ h5.replied-user-name {
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
-.prod_detail_check .form-check-label{
+.prod_detail_check .form-check-label {
   padding-left: 0;
 }
 /* checkbox section end here */

@@ -153,6 +153,11 @@
   border: 1px solid;
   border-radius: 5px;
 }
+.add-upload-wrapper button.add-products:hover{
+  background: #fff;
+  border: 1px solid #000;
+  color: #000;
+}
 .add-upload-wrapper button.upload-products {
   background: #e8fbff;
   padding: 9px 55px;
@@ -278,7 +283,7 @@ div#exampleModalCenter button.btn {
   transition: all 0.3s ease-in-out;
 }
 div#exampleModalCenter button.btn:hover {
-  outline: 1px solid #07a8c4;
+  /* outline: 1px solid #07a8c4; */
 }
 div#exampleModalCenter [type="radio"]:checked,
 div#exampleModalCenter [type="radio"]:not(:checked) {
@@ -366,7 +371,7 @@ div#exampleModalCenter button.pay-now {
   border: 1px solid;
 }
 div#exampleModalCenter a.btn:hover {
-  outline: 1px solid #07a8c4;
+  /* outline: 1px solid #07a8c4; */
 }
 div#exampleModalCenter a.pay-now {
   background: #060606;
@@ -375,7 +380,12 @@ div#exampleModalCenter a.pay-now {
   font-family: "Poppins";
   font-size: 12px;
   font-weight: 500;
-  border: 1px solid;
+  border: 1px solid #000;
+}
+div#exampleModalCenter a.pay-now:hover{
+  background: #fff;
+  color: #000000;
+  border: 1px solid #000;
 }
 .sellers_orders .table-resposnive {
   overflow: auto;

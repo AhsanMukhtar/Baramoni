@@ -420,6 +420,11 @@ p.hoseusa {
   .order-details-wrapper {
     padding: 0px 32px;
   }
+    .order-details-wrapper button.btn.form-control:hover {
+      background: #fff;
+      color: #619700;
+      border: 1px solid #619700;
+    }
   .order-details-wrapper h6 {
     display: flex;
     justify-content: space-between;

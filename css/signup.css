@@ -23,6 +23,11 @@ section.signup_section button.btn.w-100 {
     border-radius: 0;
     background: #3DA033;
 }
+section.signup_section button.btn:hover{
+    background: #fff;
+    color: #3DA033;
+    border: 1px solid #3DA033;
+}
 section.signup_section a.btn {
     border-radius: 0;
     background: #3DA033;
