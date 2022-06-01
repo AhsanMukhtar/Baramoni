@@ -32,7 +32,7 @@
     </div>
     <div class="container">
         <div class="row align-items-center mt-2 mb-2">
-            <div class="col-lg-2 col-4">
+            <div class="col-lg-2 col-3">
                 <div class="logoDv">
                     <a href="index.php">
                         <figure><img src="img/logo.png" class="img-fluid"></figure>
@@ -42,7 +42,7 @@
             <div class="col-lg-6 col-1">
 
             </div>
-            <div class="col-lg-4 col-7">
+            <div class="col-lg-4 col-8">
                 <div class="right_menus">
                     <div class="b_user_p">
                         <div class="b_user_p2">
@@ -62,6 +62,9 @@
                                 <p class="">$ 49.00</p>
                             </div>
                         </div>
+                    </div>
+                    <div class="canvas_btn">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
@@ -119,11 +122,10 @@
     </div>
     <ul class="mobile_menus">
         <li class="menu_items"><a class="menu_links active_menu" href="index.php">Home</a></li>
-        <li class="menu_items"><a class="menu_links" href="about.php">About</a></li>
-        <li class="menu_items"><a class="menu_links" href="products.php">Shop</a></li>
-        <li class="menu_items"><a class="menu_links" href="products.php">Products</a></li>
-        <li class="menu_items"><a class="menu_links" href="contact.php">Contact</a></li>
-        <li class="menu_items"><a class="menu_links" href="product-cart.php">Cart</a></li>
+        <li class="menu_items"><a class="menu_links" href="shop.php">Shop</a></li>
+        <li class="menu_items"><a class="menu_links" href="product-detail.php">Products</a></li>
+        <li class="menu_items"><a class="menu_links" href="contactus.php">Contact</a></li>
+        <li class="menu_items"><a class="menu_links" href="productcart.php">Cart</a></li>
         <li class="menu_items"><a class="menu_links" href="signin.php">Login</a></li>
         <li class="menu_items"><a class="menu_links" href="signup.php">Signup</a></li>
     </ul>

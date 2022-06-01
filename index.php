@@ -240,12 +240,12 @@
             <div class="col-lg-6 twdcol">
                 <div class="week_slider week_slider_img">
                     <div class="row">
-                        <div class="col-md-6 img_product_h">
+                        <div class="col-md-6 img_product_h col-6">
                             <div>
                                 <img class="img-fluid" src="img/product5.png" alt="">
                             </div>
                         </div>
-                        <div class="col-md-6 week_img_content">
+                        <div class="col-md-6 week_img_content col-6">
                             <div class="">
                                 <div>
                                     <small>
@@ -284,12 +284,12 @@
             <div class="col-lg-6 twdcol">
                 <div class="week_slider week_slider_img2">
                     <div class="row">
-                        <div class="col-md-6 img_product_h">
+                        <div class="col-md-6 img_product_h col-6">
                             <div>
                                 <img class="img-fluid" src="img/product6.png" alt="">
                             </div>
                         </div>
-                        <div class="col-md-6 week_img_content">
+                        <div class="col-md-6 week_img_content col-6">
                             <div class="">
                                 <div>
                                     <small>
@@ -328,12 +328,12 @@
             <div class="col-lg-6 twdcol">
                 <div class="week_slider week_slider_img3">
                     <div class="row">
-                        <div class="col-md-6 img_product_h">
+                        <div class="col-md-6 img_product_h col-6">
                             <div>
                                 <img class="img-fluid" src="img/product7.png" alt="">
                             </div>
                         </div>
-                        <div class="col-md-6 week_img_content">
+                        <div class="col-md-6 week_img_content col-6">
                             <div class="">
                                 <div>
                                     <small>

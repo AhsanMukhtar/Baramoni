@@ -1,36 +1,36 @@
 .signup_heading_sec p {
-    width: 580px;
-    margin: 0 auto;
+	width: 580px;
+	margin: 0 auto;
 }
 .signup_heading_sec {
-    text-align: center;
-    margin-top: 4rem;
+	text-align: center;
+	margin-top: 4rem;
 }
 .signup_form_sec .form-control {
-    border: 0;
-    background-color: #EFEFEF;
-    border-radius: 0;
-    padding: 1rem;
+	border: 0;
+	background-color: #efefef;
+	border-radius: 0;
+	padding: 1rem;
 }
 p.grey_txt {
-    color: #707070;
-    font-size: 12px;
+	color: #707070;
+	font-size: 12px;
 }
 .signup_heading_sec h3 {
-    color: #013307;
+	color: #013307;
 }
 section.signup_section button.btn.w-100 {
-    border-radius: 0;
-    background: #3DA033;
+	border-radius: 0;
+	background: #3da033;
 }
-section.signup_section button.btn:hover{
-    background: #fff;
-    color: #3DA033;
-    border: 1px solid #3DA033;
+section.signup_section button.btn:hover {
+	background: #fff;
+	color: #3da033;
+	border: 1px solid #3da033;
 }
 section.signup_section a.btn {
-    border-radius: 0;
-    background: #3DA033;
+	border-radius: 0;
+	background: #3da033;
 }
 /* .sigup_form_sec .custom-check input {
     position: absolute;
@@ -93,45 +93,58 @@ section.signup_section a.btn {
     text-decoration: underline;
 } */
 .signup_form_sec .border_col:after {
-    content: "";
-    background: #707070;
-    width: 2px;
-    height: 190px;
-    position: absolute;
-    border-radius: 0;
-    margin-top: 12rem ;
-    border: 0;
+	content: "";
+	background: #707070;
+	width: 2px;
+	height: 190px;
+	position: absolute;
+	border-radius: 0;
+	margin-top: 12rem;
+	border: 0;
 }
 a.signupwf {
-    color: #4267B2;
-    background: transparent;
-    border: 2px solid;
-    padding: 1rem 4rem;
+	color: #4267b2;
+	background: transparent;
+	border: 2px solid;
+	padding: 1rem 4rem;
 }
 a.signupwg {
-    color: #D44638;
-    background: transparent;
-    border: 2px solid;
-    padding: 1rem 66px;
+	color: #d44638;
+	background: transparent;
+	border: 2px solid;
+	padding: 1rem 66px;
 }
 .sigw:first-child {
-    margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 .sigw {
-    display: inline-flex;
+	display: inline-flex;
 }
 .signinnn {
-    margin: auto;
+	margin: auto;
 }
 select#exampleFormControlSelect1 {
-    padding: 1rem;
-    height: 54px;
-    -webkit-appearance: none;
-    background-image: url(../img/icon_dropdown.png);
-    background-repeat: no-repeat;
-    background-position-x: 95%;
-    background-position-y: center;
+	padding: 1rem;
+	height: 54px;
+	-webkit-appearance: none;
+	background-image: url(../img/icon_dropdown.png);
+	background-repeat: no-repeat;
+	background-position-x: 95%;
+	background-position-y: center;
 }
 .signinnn .sigw i {
-    font-size: 17px;
+	font-size: 17px;
+}
+@media (max-width: 768px) {
+	.signup_form_sec .border_col:after {
+		display: none;
+	}
+	.signup_heading_sec p {
+		width: 401px;
+	}
+}
+@media (max-width: 480px) {
+	.signup_heading_sec p {
+		width: 301px;
+	}
 }
