@@ -10,7 +10,7 @@
                 <div class="col-lg-4">
                     <div>
                         <div class="heading_top">
-                            <a href="#"><i class="fa fa-commenting" aria-hidden="true"></i>
+                            <a href="chat.php"><i class="fa fa-commenting" aria-hidden="true"></i>
                                 <span>message</span></a>
                             <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
