@@ -35,7 +35,7 @@
                     <hr class="line">
                     <div class="username1"><a href="wishlist.php">My Wishlist</a></div>
                     <hr class="line">
-                    <div class="username1"><a href="#">Chat</a></div>
+                    <div class="username1"><a href="chat.php">Chat</a></div>
                     <hr class="line">
                     <div class="username1"><a href="signin.php">Log Out</a></div>
 

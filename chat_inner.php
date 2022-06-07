@@ -302,10 +302,10 @@
                                 <div class="row  align-items-center">
                                     <div class="col-md-5">
                                         <div class="btn_back text-right">
-                                            <button class="btn">
+                                            <a href="chat.php" class="btn">
                                                 <!-- <i class="fa fa-arrow-left mr-3" aria-hidden="true"> -->
                                                     <img src="img/icon_left.png" class="img-fluid" alt="">
-                                                </i>Back</button>
+                                                </i>Back</a>
                                         </div>
 
                                     </div>

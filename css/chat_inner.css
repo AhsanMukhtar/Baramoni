@@ -339,7 +339,7 @@ img.img-fluid.chattick {
     -o-border-radius: 5px;
     padding-left: 0;
     border-left: 0px;
-    /* padding-left: 3.5rem; */
+    padding-left: 20px;
     border-radius: 0;
 }
 
@@ -674,12 +674,17 @@ a.show_icon i.fa.fa-file-text {
     padding: 10px 40px;
     font-family: "gtw";
 }
-
+.chat_top_bar .btn_back .btn:hover{
+    background: #619700;
+    color: #fff  !important;
+}
 .chat_top_bar .btn_back .btn img {
     width: 12px;
     margin-right: 10px;
 }
-
+.chat_top_bar .btn_back .btn img:hover{
+    color: #3da033;
+}
 .chat_top_bar .btn_clear .btn img {
     width: 12px;
 }

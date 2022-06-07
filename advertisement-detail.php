@@ -69,7 +69,7 @@
                                             </del>
                                         </div>
                                         <div class="text-right">
-                                            <a href="#" class="btn">Chat Now</a>
+                                            <a href="chat.php" class="btn">Chat Now</a>
                                         </div>
                                     </div>
                                     <div class="line_img">
