@@ -10,7 +10,7 @@
 <!-- Stylesheet -->
 
 <section class="conversation chat_sec">
-    <div class="">
+    <div class="container-fluid">
         <div class="all-chats">
             <div class="row">
                 <div class="col-md-3 for-space-bw-col pe-0">

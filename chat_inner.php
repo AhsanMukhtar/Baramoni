@@ -8,7 +8,7 @@
 
 
 <section class="conversation">
-    <div class="">
+    <div class="container-fluid">
         <div class="conversations-inner">
             <!-- <div class="all-conversations-plu-btns">
                 <div class="for-coversations-heading">
@@ -33,7 +33,7 @@
             <div class="row">
                 <div class="col-md-3 for-space-bw-col pe-0">
                     <div class="recent_head">
-                        <p class="recent_ch">Recent Chat</p>
+                        <p class="recent_ch">Chats</p>
                         <p class="recent_avail">30</p>
                     </div>
                     <div class="main_profile">
@@ -45,10 +45,11 @@
                                     <img src="img/chat1.png" class="active-friend" alt="">
                                 </div>
                                 <div class="message-sender">
-                                    <span class="name-of-sender d-block">John Doe <span class="star_rating">4.5 <i
-                                                class="fa fa-star"></i></span></span>
+                                    <span class="name-of-sender d-block">
+                                        John Doe
+                                    </span>
                                     <span class="latest-message" style="">User</span>
-                                    <span class="status">Online</span>
+                                    <!-- <span class="status">Online</span> -->
                                 </div>
                                 <!-- <div class="sended-on">
                                     <span>5 Mins Ago</span>
@@ -56,7 +57,7 @@
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="search_box">
                         <div class="input-group align-items-center">
                             <input type="text" class="form-control" placeholder="Search Chat" aria-label="search-here"
                                 aria-describedby="basic-addon1">
@@ -295,32 +296,56 @@
                     </div>
                 </div>
                 <div class="col-md-9 for-space-bw-col ps-0">
-                    <div>
+                    <div class="chat_top_bar">
                         <div class="row align-items-center justify-content-between mb-2">
-                            <div class="col-md-2">
-                                <div class="btn_back">
-                                    <button class="btn"><i class="fa fa-arrow-left mr-2"
-                                            aria-hidden="true"></i>Back</button>
+                            <div class="col-md-5">
+                                <div class="row  align-items-center">
+                                    <div class="col-md-5">
+                                        <div class="btn_back text-right">
+                                            <button class="btn">
+                                                <!-- <i class="fa fa-arrow-left mr-3" aria-hidden="true"> -->
+                                                    <img src="img/icon_left.png" class="img-fluid" alt="">
+                                                </i>Back</button>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="user_online_status">
+                                            <div class="img-friend">
+                                                <span class="active_user"></span>
+                                                <img src="img/chat2.png" class="img-fluid" alt="">
+                                            </div>
+                                            <div class="online_user_n">
+                                                <p class="user_john_n">Elsa Kazi</p>
+                                                <span class="star_rating"><i class="fa fa-star"></i>4.5 </span>
+                                                <p>Baramoni Member</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
                                 </div>
+
                             </div>
-                            <div class="col-md-6">
-                                <div class='user_online_status'>
-                                    <div>
+                            <div class="col-md-4">
+
+                                <!-- <div class='user_online_status'>
+                                    <div class="img-friend">
+                                        <span class="active_user"></span>
                                         <img src="img/chat1.png" class="img-fluid" alt="">
                                     </div>
                                     <div class="online_user_n">
-                                        <p>John Doe</p>
+                                        <p class="user_john_n">John Doe</p>
                                         <p class="online_btn">Online</p>
                                     </div>
                                     <div>
                                         <p>Baramoni Member</p>
                                         <p class="text-right"><i class="fa fa-star mr-2"></i>4.5</p>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-3">
                                 <div class="btn_clear text-right">
-                                    <button class="btn"><img src="img/dustbin.png" class="mr-2" alt="">Clear
+                                    <button class="btn"><img src="img/dustbin.png" class="mr-3" alt="">Clear
                                         Chat</button>
                                 </div>
                             </div>
@@ -329,8 +354,22 @@
                     <div class="the-chats">
                         <div class="my-chat">
                             <div class="my-chat-inner">
-
                                 <div class="send-message">
+                                    <div class="custom_dropdown">
+                                        <!-- <div class="dropdown ">
+                                            <button type="button" class="btn btn-primary dropdown-toggle"
+                                                data-toggle="dropdown">
+                                                ...
+                                            </button>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Link 1</a>
+                                                <a class="dropdown-item" href="#">Link 2</a>
+                                                <a class="dropdown-item" href="#">Link 3</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">Another link</a>
+                                            </div>
+                                        </div> -->
+                                    </div>
                                     <div class="message-body">
                                         <span>Duis aute irure dolor in reprehenderit in voluptate velit </span>
 
@@ -356,20 +395,22 @@
                                     </div>
                                     <div class="message-recieved">
                                         <div class="that-message">
+                                            <p class="reciever_name"> Elsa Kazi</p>
                                             <span>Lorem ipsum dolor sit amet, consectetur adipiscing
                                                 elit, sed do eiusmod tempor incididunt ut labore</span>
                                         </div>
                                         <div class="recieved-on">
-                                            <img src="img/chattick.png" class="img-fluid chattick" alt="">
+                                            <img src="img/receivedimg.png" class="img-fluid chattick" alt="">
                                             <span>Message Sent 2:35 AM</span>
                                         </div>
                                     </div>
                                     <div class="message-recieved">
                                         <div class="that-message">
+                                            <p class="reciever_name"> Elsa Kazi</p>
                                             <span>Duis aute irure dolor in reprehenderit</span>
                                         </div>
                                         <div class="recieved-on">
-                                            <img src="img/chattick.png" class="img-fluid chattick" alt="">
+                                            <img src="img/receivedimg.png" class="img-fluid chattick" alt="">
                                             <span>Message Sent 2:35 AM</span>
                                         </div>
                                     </div>
@@ -395,21 +436,29 @@
                                     aria-describedby="basic-addon1">
                             </div> -->
                             <div class="for-new-message input-group">
-
                                 <div class="input-group-prepend">
                                     <div class="plus_icon">
                                         <i class="fa fa-plus"></i>
                                     </div>
                                     <div class="custom_icons input-group-text">
+
                                         <a href="" class="show_icon">
-                                            <i class="fa fa-camera"></i>
+                                            <div class="form-group">
+                                                <label for="filetext"><i class="fa fa-file-text"
+                                                        aria-hidden="true"></i></label>
+                                                <input type="file" class="form-control" id="filetext">
+                                            </div>
                                         </a>
                                         <a href="" class="show_icon">
-                                            <i class="fa fa-file-text" aria-hidden="true"></i>
+                                            <label for="filetext"><i class="fa fa-camera"
+                                                    aria-hidden="true"></i></label>
+                                            <input type="file" capture="user" accept="image/png, image/gif, image/jpeg"
+                                                class="form-control" id="imageFile">
                                         </a>
                                     </div>
+                                    <input type="text" name="" placeholder="Type your message here" id="messaging">
                                 </div>
-                                <input type="text" name="" placeholder="Enter your message here" id="">
+
                             </div>
                             <div class="for-send-msg-btn">
                                 <div class="emoji_icon">
