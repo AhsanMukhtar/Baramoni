@@ -12,10 +12,14 @@
                         <div class="heading_top">
                             <a href="chat.php"><i class="fa fa-commenting" aria-hidden="true"></i>
                                 <span>message</span></a>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"
+                                    aria-hidden="true"></i></a>
+                            <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"
+                                    aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"
+                                    aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a>
                             <div class="input-group">
                                 <i class="fa fa-flag" aria-hidden="true"></i>
                                 <select class="custom-select" id="inputGroupSelect01">
@@ -77,6 +81,7 @@
                     <div class="navbar_menus">
                         <ul class="menus">
                             <li class="menu-items"><a href="index.php">Home</a></li>
+                            <li class="menu-items"><a href="about-us.php">About</a></li>
                             <li class="menu-items"><a href="shop.php">Shops</a></li>
                             <li class="menu-items"><a href="restaurant.php">Restaurants </a></li>
                             <li class="menu-items"><a href="travels.php">Travels</a></li>
